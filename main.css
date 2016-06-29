@@ -1,0 +1,249 @@
+
+body {
+    background-image: url("http://i.imgur.com/6eGD8lz.png"); 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    background-color: #ffffff;
+    overflow-x:hidden;
+    width: inherit;
+    position: relative;
+    
+}
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
+h1 {
+    font-size: 10vh;
+    font-weight: 600;
+    display: block;
+    background-color: black;
+    color: white;
+    line-height: 1.5em;
+    width: 75%;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+.thirdBar, .fourthBar {
+    font-size: 5vh;
+    font-weight: 600;
+    display: block;
+    background-color: black;
+    color: white;
+    line-height: 2em;
+    width: 65%;
+}
+.fourthBar {
+    margin-left: 0%;
+    text-align: left;
+    margin-bottom: 3%;
+    position: relative;
+}
+.thirdBar {
+    margin-left: 35%;
+    text-align: right;
+     position: relative;
+}
+.imageTab {
+    margin-bottom: 8vh;
+}
+.imageBoxes {
+    display: inline-block;
+    background-color: black;
+    padding: 10px;
+    vertical-align: top;
+    margin-right: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+.imageBoxes img {
+    height: 10vw;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imageBoxText {
+    color: white;
+    text-align: center;
+    font-size: 4vh;
+    font-weight: 600;
+}
+.vinhBox img {
+    background-color: black;
+    width: 28vh;
+    padding: 18px;
+}
+.vinhBox {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.imageTab {
+    vertical-align: middle;
+}
+.bottomBar {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    line-height: 1.5em;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.bottomBar img {
+    display: inline-block;
+    width: 8vh;
+    margin: 1vw;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.7;
+    }
+}
+.fadeableImageBox:hover {
+    animation-name: fade;
+    animation-duration: .7s;
+    animation-iteration-count: 1;
+    opacity: .7
+}
+
+.bottomBar img:hover, h3:hover, h4:hover {
+    opacity: .7
+}
+
+.leftify, .rightify {
+        position: relative;
+}
+
+.aboutmetext
+{
+    font-size: 1.9vw;
+    font-weight: 600;
+    display: block;
+    background-color: black;
+    color: white;
+    line-height: 1.5em;
+    width: 80%;
+    left: 110%;
+    top: 0%;
+    padding: 10px;
+    position: absolute;
+    
+}
+
+a {
+    color: #0099ff;
+}
+
+.languagestext
+{
+    font-size: 2vw;
+    font-weight: 600;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    line-height: 1.5em;
+    width: 80%;
+    position:absolute;
+    left: 110%;
+    top: 70%;
+    padding: 10px;
+    
+}
+
+.flapBox
+{
+    left: 50%;
+    position:absolute;
+}
+
+.GeomBox, .flapBox
+{
+    font-size: 7vh;
+    font-weight: 600;
+    display: block;
+    background-color: black;
+    color: white;
+    width: 48%;
+    padding: 10px;
+    position:absolute;
+    top: 5%;
+    left: -110%;
+    margin-bottom: 0px;
+}
+
+.flapBox
+{
+    left: -58%;
+
+}
+
+.GeomBox p, .flapBox p
+{
+    font-size: 3vh;
+    padding: 1px;
+    margin-bottom: 0px;
+    
+}
+
+
+h1, .thirdBar, .fourthBar, .vinhBox img, .bottomBar,  .imageBoxes, .aboutmetext, .languagestext, .GeomBox, .flapBox{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    background-color:rgba(0, 0, 0, 0.8);
+   
+}
+
+
+.appstorelogo
+{
+    margin-top: 5px;
+ display: block;
+}
+
+.advideo
+{
+    margin-top: 2px;
+    height:35vh;
+}
+
+.tooltip{
+    display: inline;
+    position: relative;
+}
+
+.tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 10%;
+    padding: 5px 15px;
+    position: absolute;
+}
+
+.tooltip:hover:before{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 30%;
+    position: absolute;
+}

@@ -1,0 +1,168 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 3px 3px #b31217;
+    font-size: 400%;
+    margin-bottom: 20px;
+}
+
+
+body {
+
+    
+	background-color:#404040;
+    background: -webkit-linear-gradient(#404040, #1a1a1a
+
+); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#404040, #1a1a1a
+); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#404040, #1a1a1a
+); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#404040, #1a1a1a
+); /* Standard syntax */
+    color: white;
+    border-style:double;
+    border-width: 30px;
+    border-color: #b31217 ;
+    font-family: 'Raleway', sans-serif;   
+    
+}
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-sample, .btn-sample:focus { 
+  color: #ffffff; 
+  background-color: #737373; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #ffffff; 
+  background-color: #595959; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #595959; 
+} 
+ 
+.btn-sample .badge { 
+  color: #595959; 
+  background-color: #ffffff; 
+}
+
+
+.titlelink, .titlelink:active, .titlelink:focus
+{
+ background: transparent;
+    border: none;
+    outline:none;
+}
+
+.submitButt
+{
+    background: #b31217
+}
+
+.wrong,
+.wrong:hover,
+.wrong:active,
+.wrong:visited,
+.wrong:focus {
+    background-color: #a93b1c;
+}
+
+.correct,
+.correct:hover,
+.correct:active,
+.correct:visited,
+.correct:focus{
+    background-color: #6ed43a;
+}
+
+.vidplayer {
+    margin-bottom: 10px;
+}
+
+#submitButton {
+    margin-top: 10px
+}
+
+.blank {
+
+    display:block;
+    height: 100px;
+    max-height: 100%;
+    overflow:auto;
+} 
+
+.foot {
+    position:absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+  bottom: 30px;
+} 
+
+p {
+    margin: 0px;   
+}
+
+.numberButton, .numberButton:active, .numberButton:focus
+{
+    background: transparent;
+    border: none;
+    outline:none;
+}
+
+.hideMe
+{
+    color: transparent;
+}

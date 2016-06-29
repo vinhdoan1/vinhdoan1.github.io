@@ -1,0 +1,102 @@
+body {
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.vinhBox {
+    align-self: center;
+    vertical-align: top;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+}
+.imageBoxes {
+    padding: 1px;
+    vertical-align: top;
+    margin-right: 1px;
+    margin-bottom: 1.5vw;
+}
+
+.imageBoxText {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.imageBoxes img {
+    padding: 5px;
+}
+
+.vinhBox img {
+    width: 100px;
+    padding: 10px;
+}
+
+.vinhBox
+{
+ display: inline-block;
+    width: 10px;
+    margin-bottom: 25px;
+}
+
+.GeomBox p,
+.flapBox p {
+    font-size: 12px;
+    line-height: 1em;
+    padding: 0px;
+    margin-bottom: 0px;
+    display: none;
+    
+}
+.GeomBox,
+.flapBox {
+    font-size: 20px;
+    display: block;
+    line-height: 1em;
+    width: 45%;
+}
+.advideo {
+    margin-top: 2px;
+    width: 100%;
+}
+.aboutmetext {
+    font-size: 12px;
+    line-height: 1em;
+    padding: 7px;
+}
+.languagestext {
+    font-size: 15px;
+    line-height: 1em;
+    padding: 7px;
+    top: 65%;
+}
+
+.bottomBar{
+    margin: 0px;
+}
+
+.bottomBar img {
+    display:inline-flex;
+    width: 40px;
+    margin: 2px;
+}
+
+.thirdBar, .fourthBar {
+    font-size: 25px;
+}
+    
+.tooltip:hover:after{
+    font-size: 12px;
+    line-height: 1em;
+    width: 70px;
+}
+
+.tooltip:hover:before{
+    left: 50%;
+}
+
+.bottomBar img:hover, h3:hover, h4:hover {
+    opacity: 1
+}
