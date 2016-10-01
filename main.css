@@ -132,7 +132,7 @@ h1 {
 
 .aboutmetext
 {
-    font-size: 1.9vw;
+    font-size: 1.8vmax;
     font-weight: 600;
     display: block;
     background-color: black;
@@ -140,6 +140,7 @@ h1 {
     line-height: 1.5em;
     width: 80%;
     left: 110%;
+    height: 50%;
     top: 0%;
     padding: 10px;
     position: absolute;
@@ -185,6 +186,8 @@ a {
     top: 5%;
     left: -110%;
     margin-bottom: 0px;
+    height: 65%;
+    line-height: 1;
 }
 
 .flapBox
@@ -212,7 +215,8 @@ h1, .thirdBar, .fourthBar, .vinhBox img, .bottomBar,  .imageBoxes, .aboutmetext,
 .appstorelogo
 {
     margin-top: 5px;
- display: block;
+    height: 6vh;
+    display: block;
 }
 
 .advideo
