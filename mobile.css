@@ -116,6 +116,33 @@ h1 {
     font-size: 25px;
 }
     
+.aboutmetext
+{
+    font-size: 1.8vmax;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+a {
+    color: #0099ff;
+}
+
+.languagestext
+{
+    font-size: 2vw;
+    font-weight: 600;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    line-height: 1.5em;
+    width: 80%;
+    position:absolute;
+    left: 110%;
+    top: 70%;
+    padding: 10px;
+    
+}
+
 .tooltip:hover:after{
     font-size: 12px;
     line-height: 1em;
