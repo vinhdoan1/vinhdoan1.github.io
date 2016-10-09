@@ -38,6 +38,14 @@ var main = function () {
         $('.flapBox').css({
             "left": '52%'
         });
+        
+        $('.CircBox').css({
+            "left": '0%'
+        });
+
+        $('.musicQuizBox').css({
+            "left": '52%'
+        });
     }
 
 
@@ -113,6 +121,14 @@ var main = function () {
             $('.flapBox').animate({
                 left: '52%'
             }, speed);
+            
+            $('.CircBox').animate({
+                left: '0%'
+            }, speed);
+
+            $('.musicQuizBox').animate({
+                left: '52%'
+            }, speed);
 
             setTimeout(function () {
                 righted = true;
@@ -137,6 +153,14 @@ var main = function () {
             }, speed);
 
             $('.flapBox').animate({
+                left: '-58%'
+            }, speed);
+            
+            $('.CircBox').animate({
+                left: '-110%'
+            }, speed);
+
+            $('.musicQuizBox').animate({
                 left: '-58%'
             }, speed);
 

@@ -32,8 +32,8 @@ h1 {
     margin-left: 25%;
     margin-top: 1%;
 }
-.thirdBar, .fourthBar {
-    font-size: 5vh;
+.thirdBar, .fourthBar, .fifthBar {
+    font-size: 4.9vh;
     font-weight: 600;
     display: block;
     background-color: black;
@@ -51,6 +51,17 @@ h1 {
     margin-left: 35%;
     text-align: right;
      position: relative;
+}
+
+.fifthBar {
+    margin-left: 0%;
+    text-align: left;
+    position:absolute;
+    line-height: 0em;
+    font-weight: 300;
+    padding: 0px;
+    bottom: 13%;
+    width: 30%;
 }
 .imageTab {
     margin-bottom: 8vh;
@@ -173,7 +184,7 @@ a {
     position:absolute;
 }
 
-.GeomBox, .flapBox
+.flapBox, .musicQuizBox, .CircBox, .GeomBox
 {
     font-size: 7vh;
     font-weight: 600;
@@ -183,29 +194,35 @@ a {
     width: 48%;
     padding: 10px;
     position:absolute;
-    top: 5%;
+    top: 1%;
     left: -110%;
     margin-bottom: 0px;
-    height: 65%;
+    height: 35%;
     line-height: 1;
 }
 
-.flapBox
+.CircBox, .musicQuizBox
+{
+    top: 40%;
+    height: 31%;
+}
+
+.flapBox, .musicQuizBox
 {
     left: -58%;
 
 }
 
-.GeomBox p, .flapBox p
+.GeomBox p, .flapBox p, .CircBox p, .musicQuizBox p
 {
-    font-size: 3vh;
+    font-size: 2.5vh;
     padding: 1px;
     margin-bottom: 0px;
-    
+    width: 45%;    
 }
 
 
-h1, .thirdBar, .fourthBar, .vinhBox img, .bottomBar,  .imageBoxes, .aboutmetext, .languagestext, .GeomBox, .flapBox{
+h1, .thirdBar, .fourthBar, .vinhBox img, .bottomBar,  .imageBoxes, .aboutmetext, .languagestext, #projectBox{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
     background-color:rgba(0, 0, 0, 0.8);
    
@@ -214,14 +231,17 @@ h1, .thirdBar, .fourthBar, .vinhBox img, .bottomBar,  .imageBoxes, .aboutmetext,
 
 .appstorelogo
 {
-    margin-top: 5px;
+    margin-top: -5%;
+    padding-left: 25%;
     height: 6vh;
     display: block;
 }
 
 .advideo
 {
-    margin-top: 2px;
+    display:block;
+    margin-top: -35%;
+    padding-left: 50%;
     height:35vh;
 }
 
@@ -250,4 +270,14 @@ h1, .thirdBar, .fourthBar, .vinhBox img, .bottomBar,  .imageBoxes, .aboutmetext,
     content: "";
     left: 30%;
     position: absolute;
+}
+
+.adpic
+{
+    display:block;
+    margin-top: -25%;
+    margin-left: 53%;
+    height:25vh;
+    width: 100;
+    
 }

@@ -1,11 +1,11 @@
 var main = function () {
-    
+
     $('.quiz').hide();
     $('.loading').hide();
     var beginning = true;
 
     document.getElementById("vidEntered").value = localStorage.getItem("enter");
-    
+
     var ytApiKey = "AIzaSyB3LFAO-suAsevvIfP4q6Zk269_j0TmXq8";
     var vidIDs = [];
     var vidTitles = [];
@@ -41,6 +41,15 @@ var main = function () {
         return (match && match[7].length == 11) ? match[7] : false;
     }
 
+    function youtube_playlist_parser(url) {
+        var regExp = /^.*(youtu.be\/|list=)([^#\&\?]*).*/;
+        var match = url.match(regExp);
+
+        return (match && match[2]) ? match[2] : false;
+    }
+
+
+
     function quizRound() {
         var numVidsLeft = vidIDsLeft.length;
         var ind = Math.floor((Math.random() * numVidsLeft));
@@ -51,7 +60,7 @@ var main = function () {
         vidInds.push(vidIDs.indexOf(vids[0]));
         chosenVidInd = ind;
         var timeStart = Math.floor((Math.random() * (vidDurations[vidInds[0]] - DURATION)))
-      //  document.getElementById("headertag2").innerHTML = (timeStart) + "/" + (vidDurations[vidInds[0]]);
+            //  document.getElementById("headertag2").innerHTML = (timeStart) + "/" + (vidDurations[vidInds[0]]);
         var numVids = vidIDs.length;
 
         while (vids.length < 4) {
@@ -108,11 +117,27 @@ var main = function () {
 
     }
 
+    function convertPlaylistToVideos(playlistKey) {
+        $.ajax({
+          url: 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=' + playlistKey + '&key=' + ytApiKey,
+          type: 'GET',
+          async: false,
+          success: function (json) {
+              var vidsNum = json.items.length;
+
+              for (var i = 0; i < vidsNum; i++)
+              {
+                  vidIDs.push(json.items[i].snippet.resourceId.videoId);
+              }
+            },
+       });
+    }
+
     function setUpStartQuiz() {
         $('.beginning').hide();
         $('.loading').show();
 
-        vidIDsLeft = vidIDs.slice(); // create temp list left
+        vidIDsLeft = vidIDs.slice(); // create temp list left (for quiz)
 
         var numVids = vidIDs.length;
         //get titles and duration of all videos
@@ -142,44 +167,56 @@ var main = function () {
                 }*/
 
     }
-    
-    $(window).unload(function() {
-      $('#musicplayer').attr('src', '');
-    }); 
+
+    $(window).unload(function () {
+        $('#musicplayer').attr('src', '');
+    });
 
     $("#submitButton").click(function () {
         var vidEnteredList = document.getElementById("vidEntered").value;
-        vidIDs = vidEnteredList.trim().match(/[^\r\n]+/g);
+        var urlS = vidEnteredList.trim().match(/[^\r\n]+/g);
+        vidIDs = []; //reset length of vidIDs
 
-        var arrayLength = vidIDs.length;
+        var urlsLength = urlS.length;
 
-        for (var i = 0; i < arrayLength; i++) {
-            vidIDs[i] = youtube_parser(vidIDs[i])
-            if (vidIDs[i] == false) {
-                alert("Enter valid YouTube links!");
-                return;
+        for (var i = 0; i < urlsLength; i++) {
+            var playListID;
+            playListID = youtube_playlist_parser(urlS[i]);
+            if (playListID != false) {
+                convertPlaylistToVideos(playListID)
+            }
+            else
+            {
+                var vidID = youtube_parser(urlS[i])
+                if (vidID == false) {
+                    alert("Enter valid YouTube links!");
+                    return;
+                }
+                else{
+                 vidIDs.push(vidID);
+                }
             }
         }
 
-        if (arrayLength < 4) {
+        if (vidID < 4) {
             alert("Enter at least 4 videos!");
         } else {
             localStorage.setItem("enter", vidEnteredList);
             setUpStartQuiz();
         }
     })
-    
+
     $("#titleButton").click(function () {
         $('#musicplayer').attr('src', '');
-    //    var videos = $('#musicplayer');
-     //   video.pause()
+        //    var videos = $('#musicplayer');
+        //   video.pause()
         window.location.reload();
     })
-    
+
     $("#numberButton").click(function () {
-        $(".numberButton").toggleClass('hideMe');            
+        $(".numberButton").toggleClass('hideMe');
     })
-    
+
     function buttonPress(ind, butn) {
         var rightBtn;
         btn = $(butn);
@@ -189,8 +226,8 @@ var main = function () {
                 rightBtn = btn;
 
                 btn.addClass('correct');
-                
-                
+
+
                 // remove this vid from the list
                 vidIDsLeft.splice(chosenVidInd, 1);
 
@@ -199,7 +236,7 @@ var main = function () {
                     vidIDsLeft = vidIDs.slice();
             } else //wrong!
             {
-                
+
                 btn.addClass('wrong');
 
                 if (correctButton == 0) {
@@ -211,7 +248,7 @@ var main = function () {
                 } else {
                     rightBtn = $("#buttonFour");
                 }
-                
+
                 rightBtn.addClass('correct');
 
             }
@@ -222,10 +259,10 @@ var main = function () {
 
             setTimeout(function () {
 
-                
-                 btn.removeClass('correct');
+
+                btn.removeClass('correct');
                 btn.removeClass('wrong');
-                 rightBtn.removeClass('correct');
+                rightBtn.removeClass('correct');
                 rightBtn.removeClass('wrong');
 
                 buttonPressed = false;
@@ -233,8 +270,8 @@ var main = function () {
 
             }, 1000);
         } else {
-             btn.removeClass('correct');
-             btn.removeClass('wrong');
+            btn.removeClass('correct');
+            btn.removeClass('wrong');
 
         }
     }
@@ -254,7 +291,7 @@ var main = function () {
     $("#buttonFour").click(function () {
         buttonPress(3, this)
     })
-    
+
     $('#musicplayer').attr('src', '');
 
 };

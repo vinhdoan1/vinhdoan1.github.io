@@ -1,0 +1,1634 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>
+			music17
+		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style type="text/css">
+/*
+		* This document has been created with Marked.app <http://markedapp.com>.
+		* Copyright 2011 Brett Terpstra
+		* ---------------------------------------------------------------------------
+		* Please leave this notice in place, along with any additional credits below.
+		*
+		* Byword.css theme is based on Byword.app <http://bywordapp.com>
+		* Authors: @brunodecarvalho, @jpedroso, @rcabaco
+		* Copyright 2011 Metaclassy, Lda. <http://metaclassy.com>
+		*/
+
+		html {
+		font-size: 62.5%; /* base font-size: 10px */
+		}
+
+		body {
+		background-color: #f2f2f2;
+		color: #3c3c3c;
+
+		/* Change font size below */
+		font-size: 1.7em;
+		line-height: 1.4em;
+
+		/* Change font below */
+
+		/* Sans-serif fonts */
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		-webkit-font-smoothing: antialiased;
+
+		/* Serif fonts */
+		/*
+		font-family: "Cochin", "Baskerville", "Georgia", serif;
+		-webkit-font-smoothing: subpixel-antialiased;
+		*/
+
+		/* Monospaced fonts */
+		/*
+		font-family: "Courier New", Menlo, Monaco, mono;
+		-webkit-font-smoothing: antialiased;
+		*/
+		}
+		a {
+		color: #308bd8;
+		text-decoration:none;
+		}
+		a:hover {
+		text-decoration: underline;
+		}
+		/* headings */
+		h1, h2 {
+		line-height:1.2em;
+		margin-top:32px;
+		margin-bottom:12px;
+		}
+		h1:first-child {
+		margin-top:0;
+		}
+		h3, h4, h5, h6 {
+		margin-top:12px;
+		margin-bottom:0;
+		}
+		h5, h6 {
+		font-size:0.9em;
+		line-height:1.0em;
+		}
+		/* end of headings */
+		p {
+		margin:0 0 24px 0;
+		}
+		p:last-child {
+		margin:0;
+		}
+		#wrapper hr {
+		width: 100%;
+		margin: 3em auto;
+		border: 0;
+		color: #eee;
+		background-color: #ccc;
+		height: 1px;
+		-webkit-box-shadow:0px 1px 0px rgba(255, 255, 255, 0.75);
+		}
+		/* lists */
+		ol {
+		list-style: outside decimal;
+		}
+		ul {
+		list-style: outside disc;
+		}
+		ol, ul {
+		padding-left:0;
+		margin-bottom:24px;
+		}
+		ol li {
+		margin-left:28px;
+		}
+		ul li {
+		margin-bottom:8px;
+		margin-left:16px;
+		}
+		ol:last-child, ul:last-child {
+		margin:0;
+		}
+		li > ol, li > ul {
+		padding-left:12px;
+		}
+		dl {
+		margin-bottom:24px;
+		}
+		dl dt {
+		font-weight:bold;
+		margin-bottom:8px;
+		}
+		dl dd {
+		margin-left:0;
+		margin-bottom:12px;
+		}
+		dl dd:last-child, dl:last-child {
+		margin-bottom:0;
+		}
+		/* end of lists */
+		pre {
+		white-space: pre-wrap;
+		width: 96%;
+		margin-bottom: 24px;
+		overflow: hidden;
+		padding: 3px 10px;
+		-webkit-border-radius: 3px;
+		background-color: #eee;
+		border: 1px solid #ddd;
+		}
+		code {
+		white-space: nowrap;
+		font-size: 1.1em;
+		padding: 2px;
+		-webkit-border-radius: 3px;
+		background-color: #eee;
+		border: 1px solid #ddd;
+		}
+		pre code {
+		white-space: pre-wrap;
+		border: none;
+		padding: 0;
+		background-color: transparent;
+		-webkit-border-radius: 0;
+		}
+		blockquote {
+		margin-left: 0;
+		margin-right: 0;
+		width: 96%;
+		padding: 0 10px;
+		border-left: 3px solid #ddd;
+		color: #777;
+		}
+		table {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 24px;
+		border-bottom: 1px solid #ddd;
+		border-right: 1px solid #ddd;
+		border-spacing: 0;
+		}
+		table th {
+		padding: 3px 10px;
+		background-color: #eee;
+		border-top: 1px solid #ddd;
+		border-left: 1px solid #ddd;
+		}
+		table tr {
+		}
+		table td {
+		padding: 3px 10px;
+		border-top: 1px solid #ddd;
+		border-left: 1px solid #ddd;
+		}
+		caption {
+		font-size: 1.2em;
+		font-weight: bold;
+		margin-bottom: 5px;
+		}
+		figure {
+		display: block;
+		text-align: center;
+		}
+		#wrapper img {
+		border: none;
+		display: block;
+		margin: 1em auto;
+		max-width: 100%;
+		}
+		figcaption {
+		font-size: 0.8em;
+		font-style: italic;
+		}
+		mark {
+		background: #fefec0;
+		padding:1px 3px;
+		}
+
+
+		/* classes */
+
+		.markdowncitation {
+		}
+		.footnote {
+		font-size: 0.8em;
+		vertical-align: super;
+		}
+		.footnotes ol {
+		font-weight: bold;
+		}
+		.footnotes ol li p {
+		font-weight: normal;
+		}
+
+		/* custom formatting classes */
+
+		.shadow {
+		-webkit-box-shadow: 0 2px 4px #999;
+		}
+
+		.source {
+		text-align: center;
+		font-size: 0.8em;
+		color: #777;
+		margin: -40px;
+		}
+
+		@media screen {
+		.inverted, .inverted #wrapper {
+		background-color: #1a1a1a !important;
+		color: #bebebe !important;
+
+		/* SANS-SERIF */
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+		-webkit-font-smoothing: antialiased !important;
+
+		/* SERIF */
+		/*
+		font-family: "Cochin", "Baskerville", "Georgia", serif !important;
+		-webkit-font-smoothing: subpixel-antialiased !important;
+		*/
+		/* MONO */
+		/*
+		font-family: "Courier", mono !important;
+		-webkit-font-smoothing: antialiased !important;
+		*/
+		}
+		.inverted a {
+		color: #308bd8 !important;
+		}
+		.inverted hr {
+		color: #666 !important;
+		border: 0;
+		background-color: #666 !important;
+		-webkit-box-shadow: none !important;
+		}
+		.inverted pre {
+		background-color: #222 !important;
+		border-color: #3c3c3c !important;
+		}
+		.inverted code {
+		background-color: #222 !important;
+		border-color: #3c3c3c !important;
+		}
+		.inverted blockquote {
+		border-color: #333 !important;
+		color: #999 !important;
+		}
+		.inverted table {
+		border-color: #3c3c3c !important;
+		}
+		.inverted table th {
+		background-color: #222 !important;
+		border-color: #3c3c3c !important;
+		}
+		.inverted table td {
+		border-color: #3c3c3c !important;
+		}
+		.inverted mark {
+		background: #bc990b !important;
+		color:#000 !important;
+		}
+		.inverted .shadow { -webkit-box-shadow: 0 2px 4px #000 !important; }
+		#wrapper {
+		background: transparent;
+		margin: 40px;
+		}
+		}
+
+		/* Printing support */
+		@media print {
+		body {
+		overflow: auto;
+		}
+		img, pre, blockquote, table, figure {
+		page-break-inside: avoid;
+		}
+		pre, code {
+		border: none !important;
+		}
+		#wrapper {
+		background: #fff;
+		position: relative;
+		text-indent: 0px;
+		padding: 10px;
+		font-size:85%;
+		}
+		.footnotes {
+		page-break-before: always;
+		}
+		}
+		@media print{
+		#generated-toc-clone,#generated-toc{display:none!important}
+		}
+
+		</style>
+	<link href="music17_files/sbi.css" rel="stylesheet" type="text/css" id="sbi-style"></head>
+	<body class="normal">
+		<div id="wrapper">
+			<h2 id="syllabus">
+				SYLLABUS
+			</h2>
+			<h2 id="music15hiphop">
+				Music 17: Hip Hop
+			</h2>
+			<h3 id="spring2014">
+				Spring 2016
+			</h3>
+			<p>
+				<strong>Lecture</strong>: Monday evening 6:30–9:20pm, WLH 2001<br>
+				<strong>Final Exam</strong>: June 8th, 7pm, WLH 2001
+			</p>
+			<p>
+				<strong>Professor</strong>: <script type="text/javascript">document.write(
+"<n uers=\"znvygb:%20nohee\100hpfq\056rqh\">Nagubal Ohee<\057n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
+</script><a href="mailto:%20aburr@ucsd.edu">Anthony Burr</a><br>
+				<strong>Office Hours</strong>: Mondays 2:00–5:00pm, or by appointment, WLH 2142
+			</p>
+			<h3 id="teachingassistants">
+				Teaching Assistants:
+			</h3>
+			<p>
+				</p><p><script type="text/javascript">document.write(
+"<n uers=\"znvygb:gobeqra\100hpfq\056rqh\">G\056W\056 Obeqra<\057n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
+</script><a href="mailto:tborden@ucsd.edu">T.J. Borden</a><br>
+				<em>Sections</em>: A05 (Wednesday 11:00am CPMC 136) and A10 (Friday 11:00am CPMC 264)<br>
+				<em>Office Hours</em>: Wednesdays 1:00-2:00pm Art of Espresso<br>
+				
+				<a href="mailto:">Leah Bowden</a><br>
+				<em>Sections</em>: A01 (Monday 10:00am CPMC 136) and A02 (Monday 11:00am CPMC 136)<br>
+				<em>Office Hours</em>: Mondays 4:00-5:00pm The Loft (Price Center)<br>
+				<script type="text/javascript">document.write(
+"<n uers=\"znvygb:tbyvafxv1\100tznvy\056pbz\">Puevf Tbyvafxv<\057n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
+</script><a href="mailto:golinski1@gmail.com">Chris Golinski</a><br>
+				<em>Sections</em>: A03 (Wednesday 9:00am CPMC 136) and A04 (Wednesday 10:00am CPMC 136)<br>
+				<em>Office Hours</em>: Mondays 9:30pm Price Center Commuter Lounge<br>
+				<script type="text/javascript">document.write(
+"<n uers=\"znvygb:wubpuzna\100hpfq\056rqh\">Wbfu Ubpuzna<\057n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
+</script><a href="mailto:jhochman@ucsd.edu">Josh Hochman</a><br>
+				<em>Sections</em>: A06 (Wednesday 12:00pm CPMC 136) and A07 (Wednesday 1:00pm CPMC 136)<br>
+				<em>Office Hours</em>: Wednesday 11:00am - 12:00pm CPMC 245<br>
+				<script type="text/javascript">document.write(
+"<n uers=\"znvygb:zsyberfy\100hpfq\056rqh\">Znepryb Syberf Ynmpnab<\057n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
+</script><a href="mailto:mfloresl@ucsd.edu">Marcelo Flores Lazcano</a><br>
+				<em>Sections</em>: A08 (Friday 9:00am CPMC 136) and A09 (Friday 10:00am CPMC 264)<br>
+				<em>Office Hours</em>: Fridays 11:00am-12:00pm
+
+			</p>
+			<p>
+				<strong>Text</strong>: Chang, Jeff <em>Can’t Stop Won’t Stop: A History of the Hip Hop Generation</em> New York: Picador, 2005
+			</p>
+			<h2 id="generaloverview">
+				General Overview
+			</h2>
+			<p>
+				The class will present a broadly chronological overview of the 
+development of hip hop from the late 1970s through to the present. We 
+will concentrate largely on the music, paying special attention to how 
+it has been able to both reflect and shape the contexts of its 
+production. There will be a lot of listening, alongside readings from 
+the assigned text and others that will be available via the library’s <a href="http://reserves.ucsd.edu/">electronic reserve system</a>.
+ The password is "ab15". Note that you need to be on a UCSD network to 
+access that material. If you’re at home you’ll need to enable a web 
+proxy or use a VPN. Each week there will be material that is required 
+(i.e. you might be tested on it) alongside material that will allow you 
+dig into things in more detail and provide more context for your final 
+research papers.
+			</p>
+			<h2 id="objectives">
+				Objectives
+			</h2>
+			<p>
+				By the end of the course the students should:
+			</p>
+			<ul>
+				<li>have developed an understanding of how hip hop relates to 
+earlier practices within the african american vernacular (musical and 
+verbal).
+				</li>
+				<li>have developed a basic familiarity with a selection of significant songs in the style
+				</li>
+				<li>understand the basics of how the music is constructed, with an eye to the aesthetic, technological and legal issues involved
+				</li>
+				<li>have developed an understanding of how the music has both 
+reflected and shaped the cultural discourse in and around the 
+communities in which it originated
+				</li>
+			</ul>
+			<h2 id="assessment">
+				Assessment
+			</h2>
+			<p>
+				Midterm: 15%<br>
+				Section Writing Assignment: 5%<br>
+				Final Paper: 30%<br>
+				Section Attendance/Participation: 15%<br>
+				Final Exam: 35%
+			</p>
+			<ul>
+				<li>The midterm will be held during class in week 5 (April 25th). It
+ will be multiple choice and will consist of listening identification 
+and analysis questions along with factual questions drawn from the 
+lectures and readings.
+				</li>
+				<li>The specific of the section paper will be partially at the 
+discretion of your TA, but the idea is that it will be a short response 
+to one of the readings.
+				</li>
+				<li>In the final paper (which should be about 5 pages long) you 
+should choose one song from the “additional” listening category and try 
+to write about it in as much detail as you can. Work outwards from the 
+specifics of the song to discuss issues that you find compelling about 
+the artist, producer, the performance, the lyrics, the beat (original or
+ sampled) and the social context. This paper will be due by midnight of 
+Tuesday May 31st. Papers should be submitted via Turnitin on the class 
+TED site.
+				</li>
+				<li>The final exam will have a format similar to the midterm: listening ID questions, follow-ups and general questions.</li>
+			</ul>
+			<h2 id="classpolicies">
+				Class Policies
+			</h2>
+			<p>
+				<strong>Academic Integrity</strong>: Instances of plagiarism and 
+other cheating will be taken very seriously and, in some circumstances, 
+could provide immediate grounds for failing the class. Official UCSD 
+policy is <a href="http://senate.ucsd.edu/manual/appendices/appendix2.pdf">here</a>.
+ Please take the time to read it if you haven’t before. If you are at 
+all confused about the correct way to attribute sources in your writing 
+assignments consult your TA.<br>
+				<strong>Attendance</strong>: Lectures will cover material that you 
+will need to know for the tests that is not covered in the assigned 
+reading, so attendance is important. Section attendance contributes to 
+your grade (i.e. roll will be taken).<br>
+				<strong>Late Assignments</strong>: The final paper needs to be handed in on time, no exceptions. Points will be deducted for each day late.
+			</p>
+			<h2 id="basiccourseoutline">
+				Basic Course Outline
+			</h2>
+			<p>
+				<a href="#weekone">Week One (March 28th) Prehistory:</a> musical and
+ social backgrounds to the development of hip hop. Toasts, the dozens, 
+radio hype men, blue records, reggae and disco. The decay of the South 
+Bronx.
+			</p>
+			<p>
+				<a href="#weektwo">Week Two (April 4th) The Beginnings:</a> the 
+scene congeals in the South Bronx, the first recordings, graffiti, 
+breakdancing, cross-fertilization with the New York art scene.
+			</p>
+			<p>
+				<a href="#weekthree">Week Three (April 11th) Consolidation/the Suburbs:</a>
+ the rest of New York catches up with the Bronx, records start to really
+ sell, and the music starts to expand its range. Shift from turntables 
+to samplers, and an increase in lyrical complexity and race 
+consciousness.
+			</p>
+			<p>
+				<a href="#weekfour">Week Four (April 18th) Radicals/Gangstas:</a> 
+Politically radical rap in New York and the rise of gangsta rap 
+elsewhere in the country (Philly, Los Angeles, Houston, Oakland).
+			</p>
+			<p>
+				<a href="#weekfive">Week Five (April 25th) Mid Term. Controversy:</a>
+ with mainstream popularity and commercial success comes a series of 
+high profile controversies about subject matter, censorship and 
+copyright infringement. Luke in and out of court, also Ice Cube, Ice T, 
+Public Enemy.
+			</p>
+			<p>
+				<a href="#weeksix">Week Six (May 2nd) A Second Golden Age:</a> moving past the conscious/thug dichotomy (Tupac, Biggie), novel cultural formations (Wu Tang), and the rise of an underground.
+			</p>
+			<p>
+				<a href="#weekseven">Week Seven (May 9th) The South:</a> different musical formations, different commercial structures, different contexts.
+			</p>
+			<p>
+				<a href="#weekeight">Week Eight (May 16th) The Takeover:</a> hip hop
+ as the most popular popular music, business expansion, the rest of the 
+world, and then the collapse of the music business and the beginnings of
+ a new marginalization.
+			</p>
+			<p>
+				<a href="#weeknine">Week Nine (May 23rd) Back to the Streets?</a>Thug
+ formalism, dance crazes, a new realism, the resurgance of activism, 
+vocoders, the internet, new anxieties about ownership and appropriation.
+			</p>
+			<p>
+				<a href="#weekten">Week Ten (May 30th) Memorial Day. No Lecture.</a> 
+			</p>
+			<h2 id="weekoneprehistory1900-1979">
+				<a id="weekone" name="weekone">Week One: Prehistory (1900–1979)</a>
+			</h2>
+			<p>
+				This week’s material traces a number of important predecessors of 
+hip hop. We will examine the tradition of verbal battling known as “the 
+dozens” and the storytelling form known as “toasts”which influenced (and
+ continues to influence) many rappers. It’s important to note that the 
+influence is not just folkloric: previous forms of black popular music 
+had integrated elements of the dozens and toasts into musical 
+performance before rap did. Other important influences came from comedy 
+and vaudeville traditions. Alongside the verbal influences we’ll examine
+ the musical building blocks of early rap: the funk of James Brown and 
+the ways in which reggae and disco DJ’s used already existing music to 
+create something new.
+			</p>
+			<h3 id="listening">
+				Listening
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>
+					<a href="https://www.youtube.com/watch?v=aRSMaKJySlY">Jelly Roll Morton <em>Dirty Dozens</em></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=Zw6yTkgZFCc">Bo Diddley <em>Say Man</em></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=DvMBxlu62c0">Pigmeat Markham <em>Here Comes the Judge</em></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=Voxp3ckwJZ0">Rudy Ray Moore (as Dolemite) <em>Signifying Monkey</em></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=8M5W_3T2Ye4">Last Poets <em>When the Revolution Comes</em></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=itzy_oKniZc">Lightnin Rod <em>Sport</em></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=OG_fs-liOUs">Parliament <em>P Funk Wants to Get Funked Up</em></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=vu97ctxg8hk">Dr Alimantando <em>Best Dressed Chicken in Town</em></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=xO24Tb7XMmo">Big Youth <em>Can You Keep a Secret</em></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=fEVnFGnjnGU">James Brown <em>Give it Up or Turn it Loose</em></a>, <a href="https://www.youtube.com/watch?v=dTJEu7Tngaw">Live version</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=eKl6EZShaaw">Chic <em>Good Times</em></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=wKTbcoLs5yk">Eddie Kendricks <em>Keep on Truckin</em></a>, and <a href="https://www.youtube.com/watch?v=Cyr8tf2BkW8">Tom Moulton Edit</a>
+				</li>
+			</ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				<li>
+					<a href="http://www.youtube.com/watch?v=SP7lPJW1IAA">Iceberg Slim "Duriella DuFontaine"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=Xh8mL43d8JU">Lightnin Hopkins "Dirty Dozens"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/TbUw6eSsG2Y">Lightnin' Rod/Jimi Hendrix "Duriella DuFontaine"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=nHcK44J8r7w">Watts Prophets "The Days The Hours"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=BVkJ4uQYzSM">Count Machuki and the Sound Dimension "More Scorcha"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/OWl01JD-CtQ">Jimmy Castor "It's Just Begun"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=EdhoX1Xu6ZI">Gil Scott-Heron "The Bottle"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=ilxP8As14dM">Thin Lizzy "Johnny the Fox"</a> <a href="http://youtu.be/Q6kRNwHZW5s">live w/ lyrics</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=bRyyoQo0qj4">Harlem Underground Band "Cheeba Cheeba"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=84GEk4RUY3s">Cheryl Lynn "To Be Real"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=7KlnU2ZVNpU">Blowfly "Blowfly's Rap"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=WY-Z6wm6TMQ">Incredible Bongo Band "Apache"</a>
+				</li>
+			</ul>
+			<h3 id="reading">
+				Reading
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>Chang, Loop 1 Chapters 1–3
+				</li>
+				<li>Wald, Elijah <em>The Dozens: A History of Rap’s Mama</em> New York: Oxford University Press, 2012. Chapter 12 “Rapping, Snapping and Battling” p. 183–200, 221–5
+				</li>
+			</ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				<li>Jensen <em>Devastation/Resurrection</em>. Bronx Museum of the Arts, 1979. “Devastation” p52–75
+				</li>
+				<li>Toop, David <em>Rap attack 3: African rap to global hip hop</em>. Serpent’s Tail, London, 3rd rev., expanded, and updated ed edition, 2000. p22–53
+				</li>
+				<li>Bradley, Lloyd <em>Bass Culture: When Reggae was King</em>. Viking, London, 2000. chap 13 “Wake the Town, Tell the People” p288–307
+				</li>
+				<li>Shapiro, Peter. <em>Turn The Beat Around: The Secret History Of Disco</em>. Faber and Faber, New York, 1st ed edition, 2005. p22–56
+				</li>
+			</ul><!-- <p>Lecture Notes are <a href="here">here</a> </p>-->
+			<h2 id="weektwo">
+				<a id="weektwo" name="weektwo">Week Two: The Beginnings</a>
+			</h2>
+			<p>
+				In the early days of hip hop, it seemed that graffiti was much more 
+likely to enter broader public consciousness as an art form. While some 
+graffiti writers were able to shift to a gallery context, it was much 
+harder for early rap to make itself saleable or even legible as music. 
+The early performers excelled in a live club context and so songs (if 
+they even exist as such) tended to be long, repetitive and full of 
+humorous and highly topical call and response patterns that didn’t 
+necessarily translate to record so well. It was almost inevitable that 
+the first rap hit (Sugarhill Gang’s <em>Rappers Delight</em>) was a 
+cash-in novelty record made by people outside of the scene. That said 
+many of these early songs document the transition from something that 
+was more like a practice of everyday life to a commercial musical form. 
+It’s also important to trace the back and forth influence between the 
+downtown (mostly white, punk rock and artsy) club scene and the block 
+parties and clubs of the Bronx and Brooklyn. In lecture we will watch 
+sections of the film <em>Wild Style</em>, which, while fictional, features many significant players in the early Bronx scene and was shot on location.
+			</p>
+			<h3 id="listening">
+				Listening
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>
+					<a href="http://youtu.be/JefH2GF9B2A">Sequence + Spoonie Gee "Monster Jam"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=-umSairtriU">Funky 4 + 1 "Rapping and Rocking the House"</a>
+				</li>
+				<li>Sugarhill Gang "Rappers Delight" <a href="https://www.youtube.com/watch?v=ar7sKNb4UUE">video</a>, <a href="http://youtu.be/rKTUAESacQM">whole song</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=GtP8yVIrsjE">Spoonie Gee "Spoonin' Rap"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/bp2GxCE-qSY">Spoonie Gee/Treacherous Three "New Rap Language"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/gXNzMVLqIHg">Grandmaster Flash "Official Adventures of Grandmaster Flash on the Wheels of Steel"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/dhuqTecycQQ">Busy Bee/Kool Moe Dee Battle</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/O4o8TeqKhgY">Grandmaster Flash and the Furious Five "The Message"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=2RJlYzBhLg4">Afrika Bambaataa "Looking for the Perfect Beat"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=9lDCYjb8RHk">Afrika Bambaataa "Planet Rock"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/rP37qhOi9cw">Lovebug Starski "Live at the Fever"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=9I56Kkxh_os">Ramellzee vs K-Rob "Beat Bop"</a>
+				</li>
+			</ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				<li>
+					<a href="http://youtu.be/jaza0t2R40c">Fatback Band "King Tim III"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=_rwpBYQn3S8">Sugarhill Gang "8th Wonder"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/SVxk9PW62Vk">Funky 4 + 1 "That's the Joint"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=5ZDUEilS5M4">Kurtis Blow "The Breaks"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=XOHvOhADAic">Fearless Four "Rockin It"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=impcE85nWeU">Younger Generation "We Rap More Mellow" (actually Furious Five)</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/F_gF1v1xZDc">Sequence "Funk You Up"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/Hk_DBrjtH0s">Treacherous Three "Feel the Heartbeat"</a>
+				</li>
+				<li>Afrika Bambaataa "Death Mix" <a href="http://www.youtube.com/watch?v=PtsVMJAXkv8">Part 1</a>, <a href="http://www.youtube.com/watch?v=4Q4MTPL_naI">Part 2</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=1mkShRCTQR0" title="YouTube - Afrika Bambaataa &amp; The Jazzy 5 - Jazzy Sensation (Bronx Version)">Afrika Bambaataa "Jazzy Sensation"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=XMVokT5e0zs" title="YouTube - Kraftwerk - Trans-Europe Express">Kraftwerk "Trans Europe Express"</a>
+				</li>
+			</ul>
+			<h3 id="reading">
+				Reading
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>Chang: Chapters 4–7, 9
+				</li>
+			</ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				<li>Fricke and Ahearn eds. <em>Yes Yes Y’all: The Experience Music Project Oral History Of Hip-Hop’s First Decade</em> Da Capo Press, Cambridge, MA, 2002. Chapter 4 "“And You Don’t Stop: The Scene Matures”", p135–176
+				</li>
+				<li>M. A. Neal and M. Forman eds. <em>That’s The Joint! : The Hip-Hop Studies Reader</em>. Routledge, New York, 2004. Part 1: 5, 6 p41–44,
+				</li>
+			</ul>
+			<h2 id="weekthree">
+				<a id="weekthree" name="weekthree">Week Three: Consolidation/The Suburbs</a>
+			</h2>
+			<p>
+				After the initial rush of early recordings, rap began to establish a
+ presence within the music business and entertainment culture more 
+generally by the mid 1980s. It’s notable that many figures from this 
+period of consolidation came not from the Bronx but from the suburbs of 
+Long Island and the more suburban areas of Queens. This was partially 
+due to class issues (they had more easy access to mainstream 
+institutions), but also reflected the fact that while the music may have
+ started on the streets it was capable of speaking to and for a broader 
+community. As a result lyrical subject matter and production styles 
+within rap broadened. This week we’ll look at music from the Def Jam 
+juggernaut (which pioneered real crossover success), Eric B and Rakim 
+(who raised the bar in lyrical and musical complexity), a group of 
+classic “answer” records and music by the loosely bohemian and 
+afrocentric Native Tongues collective. The reading from Imani Perry’s 
+book provides and excellent analytical framework for dealing with rap 
+lyrics (and musical technique for that matter).
+			</p>
+			<h3 id="listening">
+				Listening
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>
+					<a href="http://www.youtube.com/watch?v=_hN1SKVx31s" title="YouTube - Run DMC - Its Like That (Original)">Run DMC "It's Like That"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=GND7sPNwWko" title="YouTube - RUN-DMC - Rock Box">Run DMC "Rock Box"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=4KpngczmD7Q" title="YouTube - Full Force/UTFO - Roxanne, Roxanne">UTFO "Roxanne Roxanne"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=J9IFs13w_JQ" title="YouTube - Roxanne's Revenge (Original-Street Version)">Roxanne Shante "Roxanne's Revenge"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=qqw2uby0dzc" title="YouTube - LL COOL J,CAN,T LIVE WITHOUT MY RADIO.">LL Cool J "Can't Live Without My Radio"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/icBflcYZhpoDi">Doug E Fresh and Slick Rick "La Di Da Di"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=b6aAFkP0BGU">Eric B and Rakim "Paid In Full"</a>, <a href="http://www.youtube.com/watch?v=E7t8eoA_1jQ&amp;ob=av2n" title="YouTube - Eric B. &amp; Rakim - Paid In Full">Cold Cut Remix</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=95gP3m-uBHA" title="YouTube - Eric B. &amp; Rakim - Follow The Leader">Eric B and Rakim "Follow the Leader"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=CgmfyFm30OE" title="YouTube - Stetsasonic &quot;Talkin All That Jazz&quot;">Stetsasonic "Talkin All That Jazz"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=TdvKAnIlB2Y" title="YouTube - Kool G Rap and DJ Polo = Streets of New York">Kool G Rap "Streets of New York"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=FJEzEDMqXQQ">De La Soul "Me, Myself and I"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=HU_4pf8BSQw">A Tribe Called Quest "Bonita Applebum"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=K0wVNPWWZIw" title="YouTube - Jungle Brothers- Straight out the Jungle">Jungle Brothers "Straight Out the Jungle"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=2KHzXqUbcu4" title="YouTube - Queen Latifah - Ladies First feat. Monie Love">Queen Latifah/Monie Love "Ladies First"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/Naf5uJYGoiU">Beastie Boys "Hey Ladies"</a>
+				</li>
+			</ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				<li>
+					<a href="http://www.youtube.com/watch?v=iOKMWSR2Aio" title="YouTube - RUN-DMC - Sucker MC's">Run DMC "Sucker MCs"</a>, <a href="http://www.youtube.com/watch?v=qOhRE4wDK6w" title="YouTube - Run DMC Sucker MCs">TV performance</a> (vs Kool Moe Dee/Special K on "Graffiti Rock")
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=AdMlZxHLM8w">Eric B and Rakim "My Melody"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=bAlsaFKtHuU" title="YouTube - Ultramagnetic Mcs - Ego Trippin(Original 12'' Version)">Ultramagnetic MCs "Ego Trippin"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=sSoXHUlwraU" title="YouTube - Juice Crew - The Symphony">Juice Crew "The Symphony"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=Dzyq4zZrmQ4" title="YouTube - Old School Beats MC Shan - The Bridge">MC Shan "The Bridge"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=Z-alEhlHSzk" title="YouTube - krs-one the bridge is over">Boogie Down Productions "The Bridge is Over"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=DphkDgAMKqY" title="YouTube - LL Cool J-Rock the Bells">LL Cool J "Rock the Bells"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=fHy2hZ3ECHA&amp;ob=av2n" title="YouTube - Jody Watley - Friends ft. Eric B. &amp; Rakim">Jody Watley "Friends"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=IaNzrXAUHBk" title="YouTube - Newcleus - Jam On It">Newcleus "Jam On It"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=zTze-Mo0ZH4">Salt N Pepa "Tramp"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=gC1xuVCBl4o" title="YouTube - De La Soul - Ring Ring Ring">De La Soul "Ring Ring Ring (Ha Ha Hey)"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=zvh3B_MTbGo" title="YouTube - A Tribe Called Quest - Description of a Fool">A Tribe Called Quest "Description of a Fool"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=AFGhQSiGHWM" title="YouTube - Jungle Brothers - I'll House You">Jungle Brothers "I'll House You"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=ZQMVsQW_kjM" title="YouTube - Ed O.G. &amp; Da Bulldogs - Be A Father To Your Child">Ed OG "Be a Father to Your Child"</a>
+				</li>
+				<li><a href="https://www.youtube.com/watch?v=05pcczvmrjc">JVC Force "Strong Island"</a></li>
+				<li><a href="https://www.youtube.com/watch?v=z3aRrokORjY">Main Source "Looking at the Front Door"</a></li>
+			</ul>
+			<h3 id="reading">
+				Reading
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>Chang Chapters 8, 10
+				</li>
+				<li>Perry, Imani <em>Prophets Of The Hood: Politics And Poetics In Hip Hop</em> Durham: Duke University Press, 2004. Chapter 3 “Stinging Like Tabasco: Structure and Format in Hip Hop Compositions” p58–101
+			</li></ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				
+				<li>Rose, Tricia. <em>Black Noise: Rap Music and Black Culture in Contemporary America</em> University Press of New England, 1994 Chap 3 “Soul Sonic Forces” Available <a href="https://roger.ucsd.edu/record=b7177367%7ES9">here</a>
+				</li> 
+				<li>
+					<em>Wax Poetics Anthology Volume 1</em>. Wax Poetics/Puma, 2007. “Hip Hop’s Building Blocks” p190–197
+				</li>
+				<li class="list-group-item"><a href="http://www.npr.org/sections/microphonecheck/2013/09/11/221440934/marley-marl-on-the-bridge-wars-ll-cool-j-and-discovering-sampling">Marley Marl On the Bridge Wars, LL Cool J and Discovering Sampling</a></li>
+			</ul>
+			<h2 id="weekfour">
+				Week Four: Radicals/Gangstas
+			</h2>
+			<p>
+While the previous week's listening represented perhaps the gentler, 
+kinder face of hip hop, American cities in the late 80s were for many 
+dangerous and desperate places. The music began to reflect the growing 
+turmoil through both the rise of "gangsta" rap and a wave of music 
+rooted in a nationalist political radicalism. We'll look at the roots of
+ gangsta rap in both real gang structures and in popular forms of 
+storytelling (from Hollywood films back to things like the toasts we 
+listened to in week one). To get a better sense of the context of the 
+politicized music of Public Enemy and others we'll consider the Black 
+Nationalist legacy of Malcolm X (and others) and the powerful influence 
+of the Nation of Islam and its offshoots on hip hop in the 80s and 90s 
+(including some of the music we heard last week). The extract from Mike 
+Davis' City of Quartz gives a sense of the quasi-militarization of Los 
+Angeles during the crack years, while the John Jackson piece 
+provocatively reads the mode of expression of much hip hop as religious 
+and sometimes conspiratorial: rather than speaking directly it 
+communicates belief and feeling to people who understand.			</p>
+			<h3 id="listening">
+				Listening
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>
+					<a href="http://www.youtube.com/watch?v=fcYY6xwwfCE" title="YouTube - KRS-ONE - 9mm Goes Bang">BDP "9mm Goes Bang"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=h1vKOchATXs" title="YouTube - Krs One - My Philosophy - 1988?">BDP "My Philosopy"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/fQc4A-XBzBY">Schoolly D "P.S.K."</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/izuMg1GGnMc">Ice T "6 in the Mornin"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=M_t13-0Joyc" title="YouTube - PUBLIC ENEMY FIGHT THE POWER">Public Enemy "Fight the Power"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=9vQaVIoEjOM&amp;ob=av3n" title="YouTube - Public Enemy - Don't Believe The Hype">Public Enemy "Don't Believe the Hype"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=S5spKWJ9i2Q" title="YouTube - BRAND NUBIAN - WAKE UP (Reprise In The Sunshine) Quality Remastered Sound">Brand Nubian "Wake Up"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=ZbPEhuvSw8I" title="YouTube - X-Clan - Heed The Word Of The Brother">X Clan "Heed the Word of the Brother"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/uher29ZmwaY">Eazy E "Boyz n the Hood"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=GGmbUXqHPk4">NWA "Straight Outta Compton"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=1zqKut2JfHs" title="YouTube - NWA - Fuck Tha Police [HD]">NWA "Fuck the Police"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/-SXr6aUFP8U">Dr Dre (feat. Snoop Dogg) "Deep Cover"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=QKgsuGurM4I" title="YouTube - Too Short - The Ghetto">Too Short "The Ghetto"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=LaCyV8eiRm8" title="YouTube - DJ Quik - Jus Lyke Compton (Uncut)">DJ Quik "Jus Lyke Compton"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=IJtHdkyo0hc" title="YouTube - Geto Boys - Mind Playing Tricks On Me (Uncut)">Geto Boys "Mind Playin Tricks on Me"</a>
+				</li>
+			</ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				<li>
+					<a href="http://www.youtube.com/watch?v=XxmaYKK2DPc" title="YouTube - Boogie Down Productions-Criminal Minded">BDP "Criminal Minded"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=EcKhscio25M" title="YouTube - Public Enemy - 911 (Is A Joke)">Public Enemy "911 is a Joke"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/LYykNwqj0Bw">Schoolly D "Saturday Night"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=v40ainAHkRo" title="YouTube - schoolly d - am i black enough for you??? with lyrics old school rap">Schooly D "Black Enough For You"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=KHaOul8gVVc" title="YouTube - N.W.A. Gangsta Gangsta">NWA "Gangsta Gangsta"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/u31FO_4d9TY">NWA "Express Yourself"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=J3nPLoODtGU" title="YouTube - jj fad - supersonic (Video Quality A++)">JJ Fad "Supersonic"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=bRHT7BvEq1I" title="YouTube - DJ Quik - Tonight">DJ Quik "Tonight"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=8u84d7nY8pQ" title="YouTube - geto boys unedited version damn it feels good to be a gangsta">Geto Boys "Damn It Feels Good to be a Gangster"</a>
+				</li>
+				<li><a href="https://www.youtube.com/watch?v=UiPbeIXZpD4">The D.O.C. "It's Funky Enough"</a></li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=dFieSQHmQT0&amp;ob=av3e" title="YouTube - Del Tha Funkee Homosapien - Mistadobalina (Video Version)">Del "Mista Dobalina"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=NuL6KD08roc">Poor Righteous Teachers "Shayilah"</a>
+				</li>
+			</ul>
+			<h3 id="reading">
+				Reading
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>Chang: Chapters 11, 12 and 14
+				</li>
+				<li>M. Davis. <em>City of Quartz: Excavating the Future in Los Angeles</em>. Verso, London, new ed, 2006. “The Hammer and the Rock” p265–322
+				</li>
+				<li>
+					<p>
+						Jackson, John. <em>Racial Paranoia: The Unintended Consequences of Political Correctness</em>
+ Chapter 5 “Peter Piper Picked Peppers, but Humpty Dumpty Got Pushed: 
+The Productively Paranoid Stylings of Hip-hop’s Spirituality” p. 139–164
+					</p>
+				</li>
+				<li style="list-style: none">
+					<h4 id="additional">
+						Additional
+					</h4>
+				</li>
+				<li>C. E. Lincoln. <em>The Black Muslims in America</em>3rd ed Grand Rapids, Mich: W.B. Eerdmans, 1994. Chapters 1 and 2, p1–46
+				</li>
+				<li>F. M. Miyakawa. <em>Five Percenter Rap: God Hop’s Music, Message, and Black Muslim Mission</em> Bloomington: Indiana University Press, 2005. Chapters 1 and 2 p9–40
+				</li>
+				<li>
+					Jackson, John "Conspiracy is the Sincerest Form of Flattery: Hip Hop Aesthetics and Suspicious Spiritualities" in <em>Religion in Hip Hop: Mapping the New Terrain in the US</em> ed. Monica Miller, Anthony Pinn, Bernard Freeman (Bun B) London: Bloomsbury Academic, 2015
+				</li>	
+				<li>Cross, Brian <em>It’s Not About a Salary…Rap, Race and Resistance in Los Angeles</em>. Verso, 1993. Interviews with: Ice Cube (p204–217), Cypress Hill (p238–248) and<br>
+					DJ Quik (p258–262)
+				</li>
+			</ul>
+			<h2 id="weekfive">
+				Week Five: Midterm/Controversy
+			</h2>
+			<p>
+				The midterm will be held during the first hour of lecture this week.
+ After that we will have a shorter regular lecture. This week deals with
+ the issues surrounding a number of high profile legal cases that 
+centered on hip hop music in the late 1980s and early 1990s: the 
+obscenity cases involving 2 Live Crew and a number of cases involving 
+sampling and intellectual copyright (again including one featuring 2 
+Live Crew). We’ll discuss the complicated issues around context and 
+censorship raised by the obscenity cases and the equally complicated 
+relationship between hip hop and music publishing in the age of 
+sampling.
+			</p>
+			<h3 id="listening">
+				Listening
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>
+					<a href="http://www.youtube.com/watch?v=u6VTj7LhCtE" title="YouTube - 2 Live Crew - Me So Horny (Uncensored)">2 Live Crew "Me So Horny"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=65GQ70Rf_8Y" title="YouTube - Two Live Crew -- Pretty Woman">2 Live Crew "Pretty Woman"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=YyQpWS3sNkw" title="YouTube - Ice Cube - AmeriKKKa's Most Wanted">Ice Cube "Amerikkka's Most Wanted"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=ggzVm6lkIt4" title="YouTube - Ice Cube - Once Upon A Time In The Projects">Ice Cube "Once Upon A Time in the Projects"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=iFwA0UwnuS8" title="YouTube - Ice Cube - Black Korea skit">Ice Cube "Black Korea"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=lWTE1Uj9Z8c">Public Enemy "Welcome to the Terrordome"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/l1EaF50O-C8">Snoop Dogg "Gin and Juice"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=-_u-kWkrNxw">Dr Dre "Nuthin but a G Thang"</a>
+				</li>
+			</ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				<li>
+					<a href="http://www.youtube.com/watch?v=mU8H9_YBM3A" title="YouTube - Ice Cube - A Bird In The Hand">Ice Cube "A Bird in the Hand"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=3tmu4PW7t_k" title="YouTube - NWA-Niggaz 4 Life-Efil4zaggin">NWA "Niggaz 4 Life"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=IbQEI4Wt70w" title="YouTube - Scarface- Seen A Man Die">Scarface "I Seen A Man Die"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/G1SwN70b0bw">Cypress Hill "Hand on the Pump"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=OebqNsNRBtU" title="YouTube - Biz Markie - Alone Again">Biz Markie "Alone Again"</a>
+				</li>
+			</ul>
+			<h3 id="reading">
+				Reading
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>Chang Chapters 13, 15, 16
+				</li>
+				<li>Kimberle Crenshaw <a href="http://bostonreview.net/archives/BR16.6/crenshaw.html" title="Beyond Racism and Misogyny: Black Feminism and 2 Live Crew">"Beyond Racism and Misogyny: Black Feminism and 2 Live Crew"</a>
+				</li>
+				<li>Henry Louis Gates <a href="http://proquest.umi.com/pqdweb?index=0&amp;did=114563974&amp;SrchMode=2&amp;sid=1&amp;Fmt=12&amp;VInst=PROD&amp;VType=PQD&amp;RQT=309&amp;VName=HNP&amp;TS=1288650667&amp;clientId=48051">"2 Live Crew, Decoded"</a> NY Times Op-Ed in defense of 2 Live Crew, based on his expert witness testimony
+				</li>
+			</ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				<li>Henry Louis Gates <a href="http://www.nytimes.com/1990/07/15/opinion/l-the-case-of-2-live-crew-tells-much-about-the-american-psyche-574190.html" title="The Case of 2 Live Crew Tells Much About the American Psyche - New York Times">"The Case of 2 Live Crew Tells Us a Lot About The American Psyche"</a> Letter to the NY Times clarifying the op-ed
+				</li>
+				<li>Good newspaper feature from the time <a href="http://www.nytimes.com/1990/10/17/us/obscenity-or-art-trial-on-rap-lyrics-opens.html" title="Obscenity or Art? Trial on Rap Lyrics Opens - New York Times">here</a>
+				</li>
+			</ul>
+			<h2 id="weeksix">
+				Week Six: A Second Golden Age
+			</h2>
+			<p>
+				By the early 1990s the thug/conscious dialectic that had framed much
+ late 80s rap was beginning to collapse. We’ll look some at the two 
+exceptional individuals who bridged most factions of hip hop culture: 
+Notorious B.I.G. and Tupac Shakur, but also look at the complex world 
+mapped out by the Wu Tang Clan and some examples of the more complex 
+underground styles that grew alongside the rise in mainstream 
+popularity.
+			</p>
+			<h3 id="listening">
+				Listening
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>
+					<a href="https://www.youtube.com/watch?v=7m148vZDwJA" title="YouTube - Wu-Tang Clan-Can It Be All So Simple">Wu Tang Clan "Can It All Be So Simple Then"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=h2zgB93KANE" title="YouTube - Ol' Dirty Bastard-Shimmy Shimmy Ya">Old Dirty Bastard "Shimmy Shimmy Ya"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=ZiQoVv0FSKQ" title="YouTube - GZA - Liquid Swords">GZA "Liquid Swords"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=FiOcVWQY2bc" title="YouTube - Pete Rock &amp; C. L. Smooth &quot;They Reminisce Over You&quot;">Pete Rock and CL Smooth "T.R.O.Y."</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=r6zH6uMyU9c" title="YouTube - Freestyle Fellowship ft. Daddy-O - Innercity Boundries">Freestyle Fellowship "Inner City Boundaries"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=wPsA3TsK1Uk" title="YouTube - Souls Of Mischief - From 93 Till Infinity (Best Quality)">Souls of Mischief "93 'til inifinity"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=1hZKN4AZ63g">Pharcyde "Runnin'"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=HfXwmDGJAB8" title="YouTube - 2Pac - Keep Ya Head Up">Tupac "Keep Ya Head Up"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=8p9jSRxguAA">Tupac "Ambitionz Az A Ridah"</a>
+				</li>	
+				<li>
+					<a href="http://www.youtube.com/watch?v=UKjj4hk0pV4" title="YouTube - Nas NY State of Mind">Nas "NY State of Mind"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/_JZom_gVfuw">Notorious B.I.G. "Juicy"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=6ihPOTDxMfE" title="YouTube - 10 crack commandments biggie smalls">Notorious B.I.G. "10 Crack Commandments"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=pqbpZvtIQZ0" title="YouTube - Method Man Ft. Mary J. Blige - You're All I Need">Mary J Blige/Method Man "You're All I Need"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=5clkFgVhmj4" title="YouTube - Lil' Kim Queen Bitch">Lil Kim "Queen Bitch"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=yoYZf-lBF_U" title="YouTube - Mobb Deep - Shook Ones Part II (Official Video) Superb Quality">Mobb Deep "Shook Ones pt 2"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/T6QKqFPRZSA">Lauryn Hill "Doo Wop (That Thing)"</a>
+				</li>
+			</ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				<li><a href="https://www.youtube.com/watch?v=prG2xT9CWgQ">Black Moon "Who Got The Props"</a></li>
+				<li><a href="https://www.youtube.com/watch?v=7ADgCeYJMN4">Onyx "Slam"</a></li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=PBwAxmrE194" title="YouTube - Wu Tang Clan &quot;C.R.E.A.M.&quot;">Wu Tang Clan "C.R.E.A.M."</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=PEnwXYJcSZc" title="YouTube - M.E.T.H.O.D. Man (original cut)">Method Man "Method Man"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=C0CmIRODuI4" title="YouTube - Raekwon Incarcerated Scarfaces">Raekwon "Incarcerated Scarfaces"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=2B5dOCSBBEI" title="YouTube - Jeru The Damaja - Come Clean">Jeru the Damaja "Come Clean"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/e5PnuIRnJW8">Nas "The World is Yours"</a>
+				</li>
+				<li><a href="https://www.youtube.com/watch?v=MZCNnDSKJsM">Group Home"Supa Star"</a></li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=8fNtipp5RLs" title="YouTube - D'Angelo - Devil's Pie">D'Angelo "Devil's Pie"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=bvCp-N-9JEw" title="YouTube - Mobb Deep - Quiet Storm">Mobb Deep "Quiet Storm"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=QjsPG0Kspxo" title="YouTube - The Pharcyde - Runnin'">Pharcyde "Passin' Me By'"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=QA4DG804VuI" title="YouTube - The Notorious B.I.G - Party and Bullshit">Notorious B.I.G. "Party and Bullshit"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=hJW1h5U6SxM" title="YouTube - Junior M.A.F.I.A. ft. Biggie Smalls - Player's Anthem">Junior Mafia "Players Anthem"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=bs2Se9gxvnA" title="YouTube - Redman - Blow Your Mind">Redman "Blow Your Mind"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/2cjv7hEAytU">Tupac "Me Against the World"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=Rx5aVI2zsFE">Black Star (Mos Def and Talib Kweli) "Definition"</a>
+				</li>
+			</ul>
+			<h3 id="reading">
+				Reading
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>Chang Chapter 18
+				</li>
+				<li>Quinn, E. <em>Nuthin’ but a “G” Thang: The Culture And Commerce Of Gangsta Rap</em>. Columbia University Press, New York, 2005. Chapter 8 “Tupac Shakur and the Legacies of Gangsta” p173–192
+				</li>
+			</ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				<li>
+					<a href="http://dreamhamptonarticles.blogspot.com/2010/04/tupac-hellraiser_15.html">hampton, dream "Hellraiser"</a>
+				</li>
+				<li>W. U. Wimsatt. Bomb the suburbs: graffiti, freight-hopping, 
+race, and the search for hip-hops moral center. Subway and Elevated 
+Press of Chicago, Chicago, IL, 1994. p18–31
+				</li>
+			</ul>
+			<h2 id="weekseven">
+				Week Seven: The South
+			</h2>
+			<p>
+				Thus far, we’ve largely concentrated on music from the New York area
+ and California. Though the south may have been later in developing its 
+own styles, by the mid 1990s this was no longer the case. Further the 
+rise of southern hip hop was also marked by a strongly independent 
+business sensibility and connections to older regionally-specific 
+African American musical styles. We’ll look at examples from the main 
+centers: New Orleans (No Limit and Cash Money records), Houston (DJ 
+Screw, UGK), Memphis (8Ball and MJG) and Atlanta (Outkast, Ludacris).
+			</p>
+			<h3 id="listening">
+				Listening
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>
+					<a href="http://www.youtube.com/watch?v=d5ZvzIOO6aU&amp;feature=fvst" title="YouTube - Master P - Make Em Say Uhh">Master P "Make Em Say Unnhhh"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=ZHrV51GOPkE&amp;ob=av2n" title="YouTube - Mystikal - Danger (Been So Long) ft. Nivea">Mystikal "Danger"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=Ww9VlmXKYgs&amp;ob=av2e" title="YouTube - Juvenile - Ha">Juvenile "Ha"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=2FnRnKHS5ds" title="YouTube - BG - Bling Bling">BG "Bling Bling"</a>
+				</li>
+				<li><a href="https://www.youtube.com/watch?v=LVH9um7lXhc">8 Ball &amp; MJG "Comin Out Hard"</a></li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=407sryG2vG8" title="YouTube - DJ Screw &amp; Fat Pat - Swang Down">DJ Screw "Swang Down" (w/ Fat Pat)</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=uijHb5U1pD8">UGK "Diamonds and Wood"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=gfcNMQpXhMc">DJ DMD feat. Lil' Keke and Fat Pat "25 Lighters"</a>
+				</li><li>
+					<a href="http://youtu.be/SfPLcQhXpCc">Paul Wall "Sittin Sidewayz"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=U61JP4KkFKc&amp;ob=av3e" title="YouTube - David Banner - Cadillac On 22's">David Banner "Cadillacs on 22s"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=OGy4bmG5SJw" title="YouTube - Goodie mob - Cell therapy">Goodie Mob "Cell Therapy"</a>
+				</li>
+				<li><a href="https://www.youtube.com/watch?v=uqB_UVlhlPA">Outkast "Elevators"</a></li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=vXmqauitBkM" title="YouTube - Outkast - SpottieOttieDopaliscious">Outkast "SpottieOttieDopaliscious"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=2QWQVm9J5DM&amp;ob=av2e" title="YouTube - Ludacris - Southern Hospitality (Uncensored) ft. Pharrell">Ludacris "Southern Hospitality"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=bqSS_3DSZO8">Trick Daddy "Shut Up"</a>
+				</li>
+			</ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				<li>
+					<a href="http://www.youtube.com/watch?v=oDAxtgk5EJw" title="YouTube - DJ Jubilee - Back That (Ass) Thang Up">DJ Jubilee "Back That Thang Up"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=psaHLi7-DIs&amp;ob=av2e" title="YouTube - Mystikal - Bouncin' Back (Bumpin' Me Against The Wall)">Mystikal "Bouncin Back"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=fozA53bOUJI" title="YouTube - Lil Wayne - Tha Block Is Hot">Lil Wayne "Block is Hot"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=1iFMWkP5It4" title="YouTube - Hot Boys - We on fire">Hot Boys "On Fire"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/0qlF0uzs3Js">Mike Jones "Still Tippin'"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=Y5qKNlcUwKs&amp;ob=av3e" title="YouTube - Nelly - Country Grammar (Hot...)">Nelly "Country Grammar"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=9PpSn3I0nYk" title="YouTube - Space Age Pimpin [ Video ] Uncensored - Eightball 8ball &amp; MJG">8Ball MJG "Space Age Pimpin"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=vFofKGKlWo4">Outkast "Player's Ball"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=5X0uSltBHhs">JT Money "Who Dat"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=drsQLEU0N1Y">Outkast "Rosa Parks"</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=ryIjCkw3Jfg">Bone Crusher feat. T.I. &amp; Killer Mike "Never Scared"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=Jrej0HfjMoE&amp;ob=av2e" title="YouTube - Rich Boy - Boy Looka Here">Rich Boy "Boy Looka Here"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=saptqnoWQ8s" title="YouTube - Jackie Chain - Rollin">Jackie Chain etc "Rollin"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=awMIbA34MT8" title="YouTube - Int'l Players Anthem (I Choose You)">UGK/Outkast "International Players Anthem (I Choose You)"</a>
+				</li>
+			</ul>
+			<h3 id="reading">
+				Reading
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>Chang Chapter 19
+				</li>
+				<li>Caramanica, Jon <a href="http://www.believermag.com/issues/200606/?read=interview_bun_b">Bun B Interview</a>, <em>The Believer</em> June/July, 2006
+				</li>
+				<li>Rose, Tricia. <em>The Hip Hop Wars: What We Talk About When We Talk About Hip Hop–And Why It Matters</em>. BasicCivitas, New York, 2008. Chapter 11
+				</li>
+			</ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				<li>
+					<a href="http://clatl.com/atlanta/the-making-of-outkasts-aquemini/Content?oid=1552576">Outkast on the making of Aquemini</a>
+				</li>
+			</ul>
+			<h2 id="weekeight">
+				Week Eight: The Takeover
+			</h2>
+			<p>
+				In 2004 all of the Billboard #1 songs were by African American 
+artists. This was the high water mark of hip hop culture’s influence 
+over the music business. In looking at how this happened, we’ll think 
+about what it means for both sides when a marginal culture becomes 
+dominant in the mainstream. We’ll also look a number of songs which used
+ “exotic” sample sources and discuss the implications therein.
+			</p>
+			<h3 id="listening">
+				Listening
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=pMCxBlfNkt8" title="YouTube - Feel So Good - Mase">Mase "Feel So Good"</a></li>
+<li><a href="http://www.youtube.com/watch?v=frIA7tuBqqY" title="YouTube - Jay-Z - Jigga What, Jigga Who">Jay Z "Jigga What Jigga Who"</a></li>
+<li>
+	<a href="https://www.youtube.com/watch?v=TjWAWcx4xdE">Clipse "Grindin"</a>
+</li>
+<li>
+	<a href="http://www.youtube.com/watch?v=gOMhN-hfMtY" title="YouTube - Eminem - Stan (Long Version) ft. Dido">Eminem "Stan"</a>
+</li>
+<li>
+	<a href="http://www.youtube.com/watch?v=mQvteoFiMlg&amp;ob=av2e" title="YouTube - Eminem - The Way I Am">Eminem "The Way I Am"</a>
+</li>
+<li>
+	<a href="http://www.youtube.com/watch?v=MYF7H_fpc-g&amp;ob=av3n" title="YouTube - Kanye West - Jesus Walks (Version 2)">Kanye West "Jesus Walks"</a>
+</li>
+<li>
+	<a href="http://www.youtube.com/watch?v=ajmI1P3r1w4&amp;ob=av3e" title="YouTube - Terror Squad - Lean Back ft. Fat Joe, Remy">Terror Squad "Lean Back"</a>
+</li>
+<li>
+	<a href="http://www.youtube.com/watch?v=_FE194VN6c4&amp;ob=av2n" title="YouTube - Snoop Dogg Featuring Pharrell - Beautiful ft. Pharrell">Snoop "Beautiful"</a>
+</li>
+<li>
+	<a href="http://www.youtube.com/watch?v=wke0-lj2wzw" title="YouTube - Panjabi MC feat. Jay-Z - Beware">Punjabi Mc/Jay Z "Beware the Boyz"</a>
+</li>
+<li>
+	<a href="http://www.youtube.com/watch?v=FPoKiGQzbSQ&amp;ob=av3e" title="YouTube - Missy Elliott - Get Ur Freak On [Video]">Missy "Get Ur Freak On"</a>
+</li>
+<li>
+	<a href="https://www.youtube.com/watch?v=4jNyr6BJZuI" title="YouTube - Dead Prez &quot;Hip Hop&quot;">Dead Prez "Hip Hop"</a>
+</li>
+<li>
+	<a href="http://youtu.be/Cgoqrgc_0cM">Jay Z "Big Pimpin"</a>
+</li>
+<li>
+	<a href="http://www.youtube.com/watch?v=_GZlJGERbvE&amp;ob=av3n" title="YouTube - Damian Marley - Welcome To Jamrock">Damian Marley "Welcome to Jamrock"</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=fXvsVSc5UoY">Young Jeezy <em>Go Crazy</em> (w/ Jay-Z)</a></li>
+<li><a href="https://www.youtube.com/watch?v=UY6mr9fO-9M">T.I. <em>Live Your Life</em> w/ Rhianna</a></li>
+
+			</ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				<li>
+					<a href="https://www.youtube.com/watch?v=31xa0CLbcls" title="YouTube - Jay-Z f/ DMX &quot;Money, Cash, Hoes&quot; Uncut Uncensored Video CDP mix">Jay Z "Money Cash Hoes"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=ThlhSnRk21E&amp;ob=av3e" title="YouTube - DMX - Ruff Ryders' Anthem">Dmx "Ruff Ryder's Anthem"</a>
+				</li>
+				<li>
+					<a href="http://youtu.be/TWLMrUcMZuo">Noreaga "Superthug"</a>
+				</li>
+				<li><a href="https://www.youtube.com/watch?v=vOxWfRrb2Sk">Black Rob "Whoa"</a></li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=sNPnbI1arSE" title="YouTube - Eminem - My Name Is">Eminem "My Name Is"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=8kyWDhB_QeI&amp;ob=av2e" title="YouTube - All Falls Down (MTV Version)">Kanye "All Falls Down"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=elVF7oG0pQs&amp;ob=av3e" title="YouTube - Kanye West - Heard 'Em Say ft. Adam Levine">Kanye "Heard Em Say"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=gKw5mBh4rYs" title="YouTube - ODB - Baby, I got your money [*original uncencored video*]">ODB "Got Your Money"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=X8l_0N8lLWY&amp;ob=av3e" title="YouTube - Lighters Up (Video) Amended Album Version with shut up bitch">Lil Kim "Lighters up"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=jytxkJUM_7U" title="YouTube - Madvillain - America's Most Blunted">Madvillain "America's Most Blunted"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=0-cpL--0AQA&amp;ob=av2n" title="YouTube - Jadakiss - Why (Uncut Version) ft. Anthony Hamilton">Jadakiss "Why"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=FAnGnevKxJE" title="YouTube - jay-z the take over">Jay Z "Takeover"</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=9GvB9ySUJ3A&amp;ob=av3e" title="YouTube - Cam'Ron - Oh Boy ft. Juelz Santana">Cam'ron "Oh Boy"</a>
+				</li>
+			</ul>
+			<h3 id="reading">
+				Reading
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>Kitwana, Bakari <em>Why White Kids Love Hip-Hop: Wankstas, Wiggers, Wannabes, And The New Reality Of Race In America</em>.
+ Basic Civitas Books, New York, 2005. Chapter 3 “Erasing Blackness: Are 
+White Suburban Kids Really Hip-Hop’s Primary Audience” p81–106
+				</li>
+				<li>Chris Molanphy "I Know You Got Soul: The Trouble with Billboard's R&amp;B/Hip-Hop Chart" <a href="http://pitchfork.com/features/articles/9378-i-know-you-got-soul-the-trouble-with-billboards-rbhip-hop-chart/">Pitchfork</a></li>
+			</ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				<li>M. A. Neal and M. Forman eds. <em>That’s the joint!: The Hip-Hop Studies Reader</em>
+ Routledge, New York, 2004. Part 2: 12 Robin Kelley “Looking for the 
+”Real“ Nigga: Social Scientists Construct the Ghetto” p119–136
+				</li>
+			</ul>
+			<h2 id="weeknine">
+				Week Nine: Back to the Streets?
+			</h2>
+			<p>
+Not long after the triumphs of 2004, the music business more or less 
+collapsed. What happened to hip hop in the wake of this collapse? Did 
+its marginal roots protect and sustain it, or contribute to an 
+increasing marginalization? We’ll look at the renewed importance of mix 
+tapes, the decline of radio, dance crazes, hyper local scenes and the 
+influence of the internet. Musically, we’ll consider the increasing 
+influence of dance music production and the expansion of vocal styles. 
+The readings this week are a selection of shorter popular press pieces 
+and news stories that focus on currently contested topics: the 
+continuing controversies about gang-focused music by the likes of Chief 
+Keef; how changes in the Billboard charts have been bad for rap and 
+R&amp;B and the trend of prosecutor’s using rap lyrics as evidence 
+against criminal defendants.			</p><h3 id="listening">
+				Listening
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=2GZbaXdK8Js">E40 <em>Tell Me When To Go</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=n2MVzP4MaJ0">Rick Ross w/ Styles P <em>BMF</em></a></li>
+<!--<li><a href="https://www.youtube.com/watch?v=bih09sE3t9M">Lil Wayne <em>A Milli</em></a></li>-->
+<li><a href="https://www.youtube.com/watch?v=7D7zdMf0Jes">Waka Flocka <em>Hard In Da Paint</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=ob3ktDxAjWI">A$AP Rocky <em>Peso</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=4rxlRn_nub0">Kendrick Lamar <em>The Art Of Peer Pressure</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=nwyjxsOYnys">Drake <em>Marvin’s Room</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=zIrhcTkHX_A">Future <em>Turn On The Lights</em></a></li>
+<!--<li><a href="https://www.youtube.com/watch?v=m_71q5lVEjc">Ab Soul <em>Terrorist Threats</em></a></li>-->
+<li><a href="https://www.youtube.com/watch?v=6g5ZF6DUrHI">Chief Keef <em>Don’t Like</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=Nrnq4SZ0luc">L3if <em>Wut</em></a></li>
+<!--<li><a href="https://www.youtube.com/watch?v=7Dqgr0wNyPo">Kanye West <em>Mercy</em></a></li>-->
+<li><a href="https://www.youtube.com/watch?v=tZ5Mu2gs-M8">Earl Sweatshirt "Grief"</a></li>
+<li><a href="https://vimeo.com/26606636">Kanye West <em>Monster</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=rMxNYQ71LOk">Kendrick Lamar "The Blacker the Berry"</a></li>
+<li><a href="https://www.youtube.com/watch?v=I8IhkhLvvho">Future "March Madness"</a></li>
+<li><a href="https://www.youtube.com/watch?v=X8LUd51IuiA">Sage the Gemini "Gas Pedal"</a></li>
+<li><a href="https://www.youtube.com/watch?v=i4ooH8frBWg">Donnie Trumpet and the Social Experiment (feat. Chance the Rapper) "Sunday Candy"</a></li>
+<li><a href="https://www.youtube.com/watch?v=5OAYMMod9Wo">Vince Staples "Senorita"</a></li>	
+</ul>			<h4 id="additional">
+				Additional
+			</h4>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=8UFIYGkROII">Soulja Boy <em>Crank Dat</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=U6z_cilnJzg">T.I. <em>Why You Wanna</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=g-iC-irllqY">E40 <em>Function</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=JU9TouRnO84">Rick Ross <em>Hustlin</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=GwamhuY6Yy8">Kendrick Lamar <em>Cartoon And Cereal</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=L9G8aN4YZQU">Keak Da Sneak <em>Super Hyphy</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=RubBzkZzpUA">Drake <em>Started From The Bottom</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=FCbWLSZrZfw">Earl Sweatshirt <em>Chum</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=-KKbdErJkiY">Rich Homie Quan <em>Type Of Way</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=5-0kZ_jeIHI">Young Thug <em>Stoner</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=rF-hq_CHNH0">Migos <em>Versace</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=bigsk2g7xO8">Chance The Rapper <em>Chain Smoker</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=TdHd-8vol70">DJ Rashad <em>Double Cup</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=YLx11xq6X7Q">Kanye West <em>Black Skinhead</em></a></li>
+<li><a href="https://www.youtube.com/watch?v=sokeAMDm7mk">Mykki Blanco <em>Wavvy</em></a></li>
+</ul>
+			<h3 id="reading">
+				Reading
+			</h3>
+			<h4 id="required">
+				Required
+			</h4>
+			<ul>
+				<li>R. Cepeda. <em>And It Don’t Stop: The Best American Hip-Hop Journalism Of The Last 25 Years</em>. Faber and Faber, New York, 1st ed edition, 2004.<br>
+					Ta-Nehisi Coates “Keepin it Unreal” p310–318
+				</li>
+				<li>Andrew Nosnitsky "Hashtags and Heartbreak: Iamsu!, Sage the Gemini and the Bay Area's New Rap Revolution"<a href="http://www.spin.com/2014/03/bay-area-rap-revolution-hbk-gang-iamsu/">Spin</a></li>
+				<li>Erik Nielson and Michael Render (Killer Mike) "Rap's Poetic (In)justice" USA <a href="http://www.usatoday.com/story/opinion/2014/11/28/poetic-injustice-rap-supreme-court-lyrics-violence-trial-column/19537391/">Today</a></li>
+				<li>Joe Coscarelli "Hip Hop Star Bobby Shmurda Finds His Label Unsupportive" <a href="http://www.nytimes.com/2015/02/23/arts/music/hip-hop-star-bobby-shmurda-in-jail-finds-his-label-unsupportive.html?mtrref=undefined&amp;gwh=51DEFCD8D89D338EAA3B2810E7E0565F&amp;gwt=pay&amp;assetType=nyt_now">NY Times</a></li>
+				<li>Dave Bry "Is it OK for White Music Critics to Like Violent Rap?" <a href="http://www.newrepublic.com/article/111702/chief-keef-finally-rich-review-debate-race-critics">New Republic</a></li>
+				<li>Justin Charity "The Occupation of Chiraq" <a href="http://gawker.com/the-occupation-of-chiraq-1551444352">Gawker</a></li>
+			</ul>
+			<h4 id="additional">
+				Additional
+			</h4>
+			<ul>
+				<li>Ogbar, Jeffrey <em>Hip-Hop Revolution: The Culture And Politics Of Rap</em>
+ Lawrence: University Press of Kansas, , 2007. “The Minstrel Reprise: 
+Hip-Hop and the Evolution of the Black Image in American Popular 
+Culture” p9–36, 184–7
+				</li>
+			</ul>
+			<h2 id="weekten">
+				Week Ten: No Class
+			</h2>
+			<!-- ##END MARKED WRAPPER## -->
+		</div>
+	
+
+<div style="left: 0px; top: 0px; position: absolute; width: 29px; height: 27px; border: medium none; margin: 0px; padding: 0px; z-index: 2147483647; display: none;" class="sbi_search" id="sbi_camera_button"></div></body></html>
