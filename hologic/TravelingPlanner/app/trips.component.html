@@ -1,0 +1,15 @@
+﻿<ul class="trips">
+    <li class="fullTrip" *ngFor="let trip of trips">
+        <div class="buttons">
+            <button (click)="gotoEditTrip(trip)">Edit</button>
+            <button (click)="deleteTrip(trip, $event)">Remove</button>
+        </div>
+            <p class="tripNames"><span>{{trip.name}}</span></p>
+                <ul>
+                    <li class = "cities" *ngFor="let city of trip.cities; let i = index">
+                        <span class="badge"> {{i + 1}}.</span> {{city.name}} for {{city.duration}}
+                    </li>
+                </ul>
+        
+    </li>
+</ul>

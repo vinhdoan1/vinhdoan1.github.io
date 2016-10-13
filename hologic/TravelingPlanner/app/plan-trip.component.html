@@ -1,0 +1,44 @@
+﻿<div class="fullTrip">
+    <div class="tripEnter">
+        <label>Trip Name: </label>
+        <input [(ngModel)]="tripName" placeholder="Enter Trip Name Here" />
+    </div>
+
+    <div class="addCity">
+        <div>
+            <label>City: </label>
+            <input [(ngModel)]="city.name" placeholder="Enter City Here" />
+        </div>
+        <div>
+            <label>Duration: </label>
+            <input [(ngModel)]="city.duration" placeholder="Enter Duration Here" />
+        </div>
+        <div class="cityaddbuttons">
+            <button *ngIf="!addingCity" (click)="cancelEditCity($event)">Cancel</button>
+            <button (click)="addEditCity($event)">{{cityButton}}</button>
+        </div>
+    </div>
+
+    <div class="tripList">
+            <h3>&nbsp;{{tripName}}&nbsp;</h3>
+
+        <ul class="cities">
+            <li *ngFor="let city of cities; let i = index">
+                <div class="city-element">
+                    {{i + 1}}.{{city.name}} for {{city.duration}}
+                </div>
+                <div class="cityeditbuttons">
+                    <button (click)="beginEditCity(city, $event)">Edit</button>
+                    <button (click)="deleteCity(city, $event)">Remove</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="endbuttons">
+    <center>
+        <button (click)="goBack()">Cancel</button>
+        <button (click)="clearAllCities($event)">Clear Trip</button>
+        <button (click)="addTrip()">{{tripButton}}</button>
+    </center>
+</div>

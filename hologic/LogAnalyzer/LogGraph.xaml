@@ -1,0 +1,41 @@
+﻿<Window x:Class="LogAnalyzer.LogGraph"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="howto_wpf_graph"
+    Height="800" Width="1235" Loaded="Window_Loaded">
+    <Grid Background="LightGreen">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="61*"/>
+            <ColumnDefinition Width="1168*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="1"
+         Text="{Binding ElementName=sliZoom, Path=Value, StringFormat='\{0:P0\}'}"
+         HorizontalAlignment="Center"
+         VerticalAlignment="Center" Margin="0.2,30,1134.8,726" Height="16" Width="33"/>
+        <Slider Name="sliZoom" Orientation="Vertical"
+            HorizontalAlignment="Center"
+            Margin="27,30,14.8,5" Grid.Column="0"
+            Minimum="0.25" Maximum="10.00" Value="1.00"
+            SmallChange="0.25" LargeChange="0.25"
+            TickFrequency="0.25" TickPlacement="BottomRight"
+            IsSnapToTickEnabled="True" Width="19"/>
+        <ScrollViewer Name="scvGraph"
+            Grid.Row="0" Grid.Column="1"
+            HorizontalScrollBarVisibility="Auto"
+            VerticalScrollBarVisibility="Auto" Margin="18.2,0,-0.2,0.4">
+            <Canvas Name="canGraph" Background="White"
+                MouseMove="canGraph_MouseMove"
+                MouseUp="canGraph_MouseUp"
+                Width="1100" Height="700"
+                
+                HorizontalAlignment="Center" Grid.ColumnSpan="2" RenderTransformOrigin="0.419,1.26">
+                <Canvas.LayoutTransform>
+                    <ScaleTransform
+                        ScaleX="{Binding ElementName=sliZoom, Path=Value}"
+                        ScaleY="{Binding ElementName=sliZoom, Path=Value}"/>
+                </Canvas.LayoutTransform>
+            </Canvas>
+        </ScrollViewer>
+        <CheckBox x:Name="Per_Minute" Content="Per Minute" HorizontalAlignment="Left" Margin="30.2,746,0,0" VerticalAlignment="Top" Grid.Column="1" Checked="Per_Minute_Checked" Unchecked="Per_Minute_Unchecked"/>
+    </Grid>
+</Window>

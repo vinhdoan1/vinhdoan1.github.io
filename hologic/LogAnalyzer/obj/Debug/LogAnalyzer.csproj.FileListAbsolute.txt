@@ -1,0 +1,77 @@
+c:\users\vd0616\documents\visual studio 2015\Projects\LogAnalyzer\LogAnalyzer\bin\Debug\LogAnalyzer.exe.config
+c:\users\vd0616\documents\visual studio 2015\Projects\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.csprojResolveAssemblyReference.cache
+c:\users\vd0616\documents\visual studio 2015\Projects\LogAnalyzer\LogAnalyzer\obj\Debug\MainWindow.g.cs
+c:\users\vd0616\documents\visual studio 2015\Projects\LogAnalyzer\LogAnalyzer\obj\Debug\App.g.cs
+c:\users\vd0616\documents\visual studio 2015\Projects\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer_MarkupCompile.cache
+c:\users\vd0616\documents\visual studio 2015\Projects\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer_MarkupCompile.lref
+c:\users\vd0616\documents\visual studio 2015\Projects\LogAnalyzer\LogAnalyzer\bin\Debug\LogAnalyzer.exe
+c:\users\vd0616\documents\visual studio 2015\Projects\LogAnalyzer\LogAnalyzer\bin\Debug\LogAnalyzer.pdb
+c:\users\vd0616\documents\visual studio 2015\Projects\LogAnalyzer\LogAnalyzer\obj\Debug\MainWindow.baml
+c:\users\vd0616\documents\visual studio 2015\Projects\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.g.resources
+c:\users\vd0616\documents\visual studio 2015\Projects\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.Properties.Resources.resources
+c:\users\vd0616\documents\visual studio 2015\Projects\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.csproj.GenerateResource.Cache
+c:\users\vd0616\documents\visual studio 2015\Projects\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.exe
+c:\users\vd0616\documents\visual studio 2015\Projects\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.pdb
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\bin\Debug\LogAnalyzer.exe.config
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.exe
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.pdb
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\bin\Debug\LogAnalyzer.exe
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\bin\Debug\LogAnalyzer.pdb
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.csprojResolveAssemblyReference.cache
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\MainWindow.g.cs
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\App.g.cs
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer_MarkupCompile.cache
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer_MarkupCompile.lref
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\MainWindow.baml
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.g.resources
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.Properties.Resources.resources
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.csproj.GenerateResource.Cache
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\bin\Debug\LogAnalyzer.exe.config
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.exe
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.pdb
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\bin\Debug\LogAnalyzer.exe
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\bin\Debug\LogAnalyzer.pdb
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.csprojResolveAssemblyReference.cache
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\MainWindow.g.cs
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\App.g.cs
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer_MarkupCompile.cache
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer_MarkupCompile.lref
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\MainWindow.baml
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.g.resources
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.Properties.Resources.resources
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.csproj.GenerateResource.Cache
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\bin\Debug\LogAnalyzer.exe.config
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.exe
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.pdb
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.csprojResolveAssemblyReference.cache
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\MainWindow.g.cs
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\App.g.cs
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer_MarkupCompile.cache
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer_MarkupCompile.lref
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\bin\Debug\LogAnalyzer.exe
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\bin\Debug\LogAnalyzer.pdb
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\MainWindow.baml
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.g.resources
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.Properties.Resources.resources
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogAnalyzer.csproj.GenerateResource.Cache
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\DateListWindow.g.cs
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\DateListWindow.baml
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\DateListWindow.g.cs
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\DateListWindow.baml
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogGraph.baml
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\DateListWindow.g.cs
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogGraph.g.cs
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ALC0616\MyRepo2\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\DateListWindow.baml
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogGraph.baml
+C:\Users\vd0616\Desktop\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogGraph.g.cs
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\bin\Debug\Newtonsoft.Json.dll
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\bin\Debug\Newtonsoft.Json.xml
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogGraph.baml
+C:\_repos\mnFusion\LogAnalyzer\LogAnalyzer\obj\Debug\LogGraph.g.cs

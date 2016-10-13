@@ -1,0 +1,37 @@
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0;
+  text-align: center;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 0;
+}
+nav {
+    text-align: center;
+
+}
+nav a {
+  font-size: 25px;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #4d4d4d;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: white;
+}
+nav a:hover {
+  background-color: #333333;
+}
+
+
+/*
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

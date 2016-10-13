@@ -1,0 +1,42 @@
+﻿* {
+    font-size: 20px;
+}
+
+.fullTrip{
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.tripNames {
+    margin-left: 2px;
+    margin-bottom: 4px;
+    margin-top: 0px;
+    border-left: 6px solid #0099ff;
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+}
+
+.tripNames span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cities {
+    border-left: 6px solid #cc2900;
+    margin-top: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.buttons
+{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
