@@ -1,0 +1,406 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+@import url(https://fonts.googleapis.com/css?family=Codystar|Akronim|Open+Sans:700|Calligraffitti|Amatic+SC:700);
+/* basic elements */
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: black;
+    background: url("gardenbg.svg") no-repeat;
+    background-size: contain;
+    background-color: #e6e6e6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 9vw;
+    text-shadow: 4px 4px 0 #555753;
+}
+
+h2 {
+    font-size: 2vw;
+    text-shadow: 2px 2px 0 #555753;
+}
+
+h1, h2 {
+    color: white;
+    display: inline;
+    position: relative;
+    bottom: -4px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+    padding: 0px;
+    line-height: 1.88889;
+}
+
+.summary {
+    background-image: url("scroll.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 14vw;
+    float: left;
+    position: absolute;
+    margin: 5px;
+    margin-left: 15px;
+    margin-top: -.8vw;
+    font-family: 'Calligraffitti', cursive;
+}
+
+    .summary p {
+        width: 19%;
+        font-size: 1.48vw;
+        line-height: 80%;
+        margin: 10px;
+        margin-top: 1.8vw;
+    }
+
+.preamble {
+    font-size: 2.1vw;
+    width: 80%;
+    line-height: 80%;
+    float: right;
+    margin: 0px;
+    position: absolute;
+    right: 10px;
+    margin-top: -2.65vw;
+    font-family: 'Amatic SC', cursive;
+}
+
+    .preamble p {
+        margin: 10px;
+        margin-top:0px;
+    }
+
+    .preamble h3 {
+        font-size: 2.9vw;
+        line-height: 0;
+        margin-bottom: 1.5vw;
+        text-decoration: underline;
+        margin-top: 2.6vw;
+    }
+
+
+.summary, .preamble {
+    text-align: center;
+}
+
+.main {
+    margin-top: 20vw;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.5vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+    .main h3 {
+        font-family: 'Codystar', cursive;
+        font-size: 3vw;
+        margin: 0;
+    }
+
+.explanation {
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.benefits {
+    top: 37vw;
+    width: 90%;
+}
+
+.requirements {
+    top: 46vw;
+}
+
+.benefits, .requirements {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-animation: fadeInOut 8s 4s infinite;
+    animation: fadeInOut 16s 8s infinite;
+    transform-origin: left;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("sand.svg");
+    background-size: contain;
+    line-height: 90%;
+}
+
+.participation, .explanation {
+    transform-origin: left;
+    -webkit-animation: fadeInOut 8s infinite;
+    animation: fadeInOut 16s infinite;
+    position: relative;
+    background-image: url("sand.svg");
+    background-size: contain;
+    line-height: 100%;
+    font-size: 1.6vw;
+}
+
+footer a {
+    display: block;
+    width: 20%;
+    height: 200px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+}
+
+footer .zen-validate-html {
+    background-image: url("htmlrock.svg");
+}
+
+footer .zen-validate-css {
+    background: url("cssrock.svg") no-repeat;
+}
+
+footer .zen-license {
+    background: url("licenserock.svg") no-repeat;
+}
+
+footer .zen-accessibility {
+    background: url("acessrock.svg") no-repeat;
+}
+
+footer .zen-github {
+    background: url("githubrock.svg") no-repeat;
+}
+
+footer .zen-validate-html:hover {
+    background: url("htmlrockh.svg") no-repeat;
+}
+
+footer .zen-validate-css:hover {
+    background: url("cssrockh.svg") no-repeat;
+}
+
+footer .zen-license:hover {
+    background: url("licenserockh.svg") no-repeat;
+}
+
+footer .zen-accessibility:hover {
+    background: url("acessrockh.svg") no-repeat;
+}
+
+footer .zen-github:hover {
+    background: url("githubrockh.svg") no-repeat;
+}
+
+footer .zen-validate-html, footer .zen-validate-html:hover,
+footer .zen-validate-css, footer .zen-validate-css:hover,
+footer .zen-license, footer .zen-license:hover,
+footer .zen-accessibility, footer .zen-accessibility:hover,
+footer .zen-github, footer .zen-github:hover {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+footer {
+    position: absolute;
+    top: 77vw;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar {
+    position: absolute;
+    top: 90vw;
+    width: 100%;
+}
+
+.design-archives {
+    font-family: 'Calligraffitti', cursive;
+    font-size: 2vw;
+}
+
+    .design-archives h3 {
+        background: url("archivesrock.svg") no-repeat;
+        background-size: contain;
+        width: 12vw;
+        line-height: 6vw;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        color: white;
+        position: absolute;
+        top: 1vw;
+        z-index: 3;
+        right: 10%;
+    }
+
+    .design-archives ul {
+        margin-top: -30px;
+        margin-bottom: -20px;
+        margin-left: 0px;
+        padding: 0;
+    }
+
+    .design-archives li {
+        list-style-type: none;
+        margin-top: -7%;
+        padding: 0;
+        background: url("archivesrock.svg") no-repeat;
+        background-size: contain;
+        text-align: center;
+    }
+
+        .design-archives li.next {
+            width: 16vw;
+            line-height: 8vw;
+            z-index: 2;
+            position: absolute;
+            top: 11vw;
+            right: 8%;
+        }
+
+        .design-archives li.viewall {
+            width: 20vw;
+            line-height: 10vw;
+            position: absolute;
+            top: 16vw;
+            right: 6%;
+        }
+
+    .design-archives a:link, .design-archives a:visited {
+        color: white;
+    }
+
+.design-selection {
+    font-family: 'Codystar', cursive;
+    font-size: 2.3vw;
+    line-height: 93%;
+    margin-top: -3vw;
+    width: 70%;
+    text-align: center;
+    background: url("sand.svg");
+    background-size: contain;
+}
+
+    .design-selection ul {
+        margin-top: -2vw;
+        margin-left: 0px;
+        padding: 0;
+        text-decoration: wavy;
+    }
+
+    .design-selection li {
+        list-style-type: none;
+    }
+
+    .design-selection a:link, .design-selection a:visited {
+        color: black;
+    }
+
+
+.zen-resources {
+    position: absolute;
+    top: 20vw;
+    width: 100%;
+    background: url("backwall.svg") no-repeat;
+    background-size: contain;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+    .zen-resources ul {
+        margin-top: 0;
+        margin-left: 0px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .zen-resources li {
+        list-style-type: none;
+    }
+
+    .zen-resources h3 {
+        margin-top: 3vw;
+        margin-bottom: 0;
+    }
+
+@-webkit-keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+
+    10% {
+        opacity: 1;
+        visibility: visible;
+        transform: scaleX(1.0);
+    }
+
+    49% {
+        transform: scaleX(1);
+        opacity: 1;
+        transform-origin: right;
+    }
+
+    59% {
+        transform-origin: right;
+        transform: scaleX(00);
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        opacity: 0;
+        transform-origin: left;
+    }
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+
+    10% {
+        opacity: 1;
+        visibility: visible;
+        transform: scaleX(1.0);
+    }
+
+    49% {
+        transform: scaleX(1);
+        opacity: 1;
+        transform-origin: right;
+    }
+
+    59% {
+        transform-origin: right;
+        transform: scaleX(00);
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        opacity: 0;
+        transform-origin: left;
+    }
+}
+
