@@ -76,9 +76,9 @@ h1 {
     height: 90%
 }
 
-.adpic
+#adpic
 {
-    display:block;
+    display:block !important;
     margin-top: 10%;
     margin-left: -2%;
     height:80%;
