@@ -271,7 +271,7 @@ h1, .thirdBar, .fourthBar, .vinhBox img, .bottomBar,  .imageBoxes, .aboutmetext,
     position: absolute;
 }
 
-.adpic img
+.adpic
 {
     visibility: visible;
     display:block !important;
