@@ -3,3 +3,5 @@ hologic/DevPartnerWebjs/node
 hologic/LogAnalyzer/bin/Debug/LogAnalyzer.exe
 hologic/LogAnalyzer/bin/Debug/LogAnalyzer.vshost.exe
 hologic/LogAnalyzer/obj/Debug/LogAnalyzer.exe
+hologic/LogAnalyzer/.DS_Store
+*/.DS_Store
