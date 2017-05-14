@@ -36,7 +36,7 @@ var main = function () {
         });
 
         $('.flapBox').css({
-            "left": '52%'
+            "left": '51%'
         });
         
         $('.CircBox').css({
@@ -44,7 +44,7 @@ var main = function () {
         });
 
         $('.musicQuizBox').css({
-            "left": '52%'
+            "left": '51%'
         });
     }
 
@@ -119,7 +119,7 @@ var main = function () {
             }, speed);
 
             $('.flapBox').animate({
-                left: '52%'
+                left: '51%'
             }, speed);
             
             $('.CircBox').animate({
@@ -127,7 +127,7 @@ var main = function () {
             }, speed);
 
             $('.musicQuizBox').animate({
-                left: '52%'
+                left: '51%'
             }, speed);
 
             setTimeout(function () {
