@@ -5,3 +5,5 @@ hologic/LogAnalyzer/bin/Debug/LogAnalyzer.vshost.exe
 hologic/LogAnalyzer/obj/Debug/LogAnalyzer.exe
 hologic/LogAnalyzer/.DS_Store
 */.DS_Store
+hologic/DevPartnerWebjs/DevPartnerWebReceiver/ConsoleApplication1/obj/Debug/ConsoleApplication1.exe
+*.exe
