@@ -1,0 +1,36 @@
+﻿.highlight {
+    background-color: yellow;
+    padding: 0px 2px;
+}
+
+.nav-tabs.centered > li, .nav-pills.centered > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs.centered, .nav-pills.centered {
+    text-align:center;
+}
+
+.tab-content, .nav-tabs {
+    margin-top: 12px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+mark 
+{
+    background-color: #ddff99;
+    padding: 0;
+}
+
+.slash
+{
+    font-size: 2em;
+    text-align: center;
+    font-weight:900;
+}

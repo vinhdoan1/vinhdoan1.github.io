@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>.csv tabler</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="jquery.csv.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="dataTables.bootstrap.min.css">
+    <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+</head>
+<body>
+    <div class="jumbotron">
+        <h1 class="text-center">.csv tabler</h1>
+    </div>
+
+
+
+    <div class="container text-center">
+
+        <div class="row">
+            <div class="col-md-offset-2 col-md-1">
+                <span class="btn btn-default btn-file" id="fileButton">
+                    <span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Browse...<input type="file" id="myFile" onchange="filePicked(event)">
+                </span>
+            </div>
+            <div class="col-md-5">
+                <input type="text" class="form-control" id="fileName" disabled>
+            </div>
+            <div class="col-md-2">
+                Separator:
+                <div class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-default active" id="commaOption">
+                        <input type="radio" name="options" autocomplete="off">,
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="radio" name="options" autocomplete="off">tab
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="" id="headerCheck" onchange="checkboxHeader(event)">
+                <span class="cr" id="headerCheckBox"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                Header
+            </label>
+        </div>
+
+        <button type="button" class="btn btn-default" id="generateButton" onclick="generateTable2()" disabled>Generate Table</button>
+        <button type="button" class="btn btn-default" id="saveButton" onclick="saveTable()" disabled>Save Table</button>
+        <button type="button" class="btn btn-default" id="showButton" onclick="showSavedTable()" disabled>Show Saved Table</button>
+        <p id="statusP">Status: -</p>
+    </div>
+
+
+    <div class="wholeTable">
+        <div class="progress" id="tableProgressBar">
+            <div class="progress-bar progress-bar-striped active" role="progressbar"
+                 aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+            </div>
+        </div>
+        <table id="dataTable" class="display" width="100%"></table>
+    </div>
+
+
+
+    <div id="chart_div"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

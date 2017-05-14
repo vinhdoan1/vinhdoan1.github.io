@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Regex Highlighter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="jumbotron">
+        <h1 class="text-center">Regex <mark>Highlighter</mark></h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <form class="form" role="form">
+                <label class="control-label col-xs-1" for="exprs">Expression:</label>
+                <p class="col-xs-1 slash">/</p>
+                <div class="form-group has-feedback" id="exprform">
+                    <div class="col-xs-4">
+                        <div class="input-group col-xs-12">
+                            <input class="form-control" id="exprs" placeholder="Enter expression" oninput="validateRegex()">
+                            <span class="glyphicon form-control-feedback glyphicon-ok" id="glyphinput"></span>
+                        </div>
+                    </div>
+                </div>
+                <p class="col-sm-1 slash">/</p>
+                <div class="form-group has-feedback" id="modform">
+                    <div class="col-xs-3">
+                        <div class="input-group col-xs-12">
+                            <input class="form-control" id="modIn" placeholder="Enter modifier" oninput="validateRegex()">
+                            <span class="glyphicon form-control-feedback" id="glyphinput2"></span>
+                        </div>
+                    </div>
+                </div>
+                <p class="col-sm-1 slash">/</p>
+            </form>
+        </div>
+        <div class="row">
+            <label class="control-label col-sm-1" for="comment">Text:</label>
+            <div class="col-sm-10">
+                <textarea class="form-control" rows="5" id="textBox" oninput="updateBottom()"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <ul class="nav nav-tabs centered">
+        <li class="active"><a data-toggle="tab" href="#home">Highlight</a></li>
+        <li><a data-toggle="tab" href="#menu1">Replace</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="home" class="tab-pane fade in active container">
+            <pre id="highlightedText"></pre>
+        </div>
+        <div id="menu1" class="tab-pane fade container">
+            <div class="container">
+                <form class="form-horizontal " role="form">
+                    <div class="form-group" id="replform">
+                        <label class="control-label col-sm-4" for="repl">Replace With:</label>
+                        <div class="col-sm-4">
+                            <input class="form-control" id="repl" placeholder="Enter replacement" oninput="updateBottom()">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <pre id="replacedText"></pre>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
