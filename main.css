@@ -274,6 +274,7 @@ h1, .thirdBar, .fourthBar, .vinhBox img, .bottomBar,  .imageBoxes, .aboutmetext,
 .adpic
 {
     display:block;
+    visibility: visible;
     margin-top: -25%;
     margin-left: 53%;
     height:25vh;
